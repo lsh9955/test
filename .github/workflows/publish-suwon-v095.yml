@@ -1,0 +1,54 @@
+name: Publish Suwon Trail v0.9.5
+
+on:
+  push:
+    branches: ["suwon-trail-updates"]
+    paths:
+      - ".github/workflows/publish-suwon-v095.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout distribution branch
+        uses: actions/checkout@v4
+        with:
+          ref: suwon-trail-updates
+
+      - name: Download verified build artifact
+        env:
+          ARTIFACT_URL: "https://sdmntprjapaneast.oaiusercontent.com/files/00000000-3bcc-8209-8cfe-0891906b1052/raw?se=2026-08-05T14:30:35Z&sp=r&sv=2026-02-06&sr=b&scid=8f52bf77-66d2-5029-8d32-88259df709ba&skoid=1e4bb9ed-6bb5-424a-a3aa-79f21566e722&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-04T21:44:06Z&ske=2026-08-05T21:44:06Z&sks=b&skv=2026-02-06&sig=JNiMEl72VnoOY%2Bz4oEqXpAOnBmGiTrzRjYFryEH5YqI%3D"
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 "$ARTIFACT_URL" --output /tmp/suwon-artifact.zip
+          rm -rf /tmp/suwon-artifact
+          mkdir -p /tmp/suwon-artifact
+          unzip -q /tmp/suwon-artifact.zip -d /tmp/suwon-artifact
+          APK=/tmp/suwon-artifact/app/build/outputs/apk/release/app-release.apk
+          test -s "$APK"
+          echo "85b849f9d6a98f6de5b33c5f6b720976c2b39b7ec0e90c45386624c92d376f56  $APK" | sha256sum -c -
+          mkdir -p suwon-trail
+          cp "$APK" suwon-trail/suwon-trail-0.9.5.apk
+          cat > suwon-trail/latest.json <<'JSON'
+          {
+            "versionCode": 17,
+            "versionName": "0.9.5",
+            "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.5.apk",
+            "sha256": "85b849f9d6a98f6de5b33c5f6b720976c2b39b7ec0e90c45386624c92d376f56",
+            "notes": "추천 경로 상세 고저도와 접기 기능, 구형 삼성헬스 영역 정리, 앱 내 안전 업데이트 기능"
+          }
+          JSON
+          printf '%s  %s\n' "85b849f9d6a98f6de5b33c5f6b720976c2b39b7ec0e90c45386624c92d376f56" "suwon-trail-0.9.5.apk" > suwon-trail/SHA256SUMS
+
+      - name: Publish update files
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add suwon-trail/
+          git commit -m "publish Suwon Trail v0.9.5" || exit 0
+          git push origin HEAD:suwon-trail-updates
