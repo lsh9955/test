@@ -1,7 +1,7 @@
 {
-  "versionCode": 18,
-  "versionName": "0.9.6",
-  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.6.apk",
-  "sha256": "6ec6ae418195414361cda7c28454ec1c0cce5b9cf35148f41a6f5b39f6e1acb6",
-  "notes": "추천 경로의 고저도 축 중복 표시와 모바일 화면 넘침을 수정했어요. 원래 상세 축이 있는 그래프는 그대로 표시합니다."
+  "versionCode": 19,
+  "versionName": "0.9.7",
+  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.7.apk",
+  "sha256": "fb49044dc6e7cdbdc7635f225bb90713079da5527801886cd41c2c7f9d3026c1",
+  "notes": "추천 코스는 원본 고저도만 표시하고, 운동 고저도와 GPS 지도의 화면 비율 및 펼침 동작을 복구했어요."
 }
