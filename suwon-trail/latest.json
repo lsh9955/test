@@ -1,7 +1,7 @@
 {
-  "versionCode": 19,
-  "versionName": "0.9.7",
-  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.7.apk",
-  "sha256": "fb49044dc6e7cdbdc7635f225bb90713079da5527801886cd41c2c7f9d3026c1",
-  "notes": "추천 코스는 원본 고저도만 표시하고, 운동 고저도와 GPS 지도의 화면 비율 및 펼침 동작을 복구했어요."
+  "versionCode": 20,
+  "versionName": "0.9.8",
+  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.8.apk",
+  "sha256": "4e1912e57a652d2fc44da9a6af666cc835ac2326710838e428903a5e01cc0330",
+  "notes": "GPS 경로를 실제 OpenStreetMap 배경 위에 표시하고, 웹 메르카토르 투영으로 경로 찌그러짐을 수정했어요."
 }
