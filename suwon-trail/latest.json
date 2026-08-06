@@ -1,7 +1,7 @@
 {
-  "versionCode": 21,
-  "versionName": "0.9.9",
-  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.9.apk",
-  "sha256": "be42e4756e2907187afbd7316c5edf1e517bdb26df5900259c3fdf0d9c6bae20",
-  "notes": "매주 날씨와 추천 코스를 자동 갱신하고, 토·일 예보와 거리·상승고도·난이도·교통·블랙야크 인증·안전 주의사항을 함께 표시해요."
+  "versionCode": 22,
+  "versionName": "0.9.10",
+  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.10.apk",
+  "sha256": "f46c0396d0f8074fec061ac062a1922bff8d4b53c2790ea17c05885fbe431e4b",
+  "notes": "20개 코스의 개략 고저도를 거리·고도 축과 터치 조회가 있는 상세 프로필로 자동 변환해요. 기존 상세 고저도는 중복 없이 유지합니다."
 }
