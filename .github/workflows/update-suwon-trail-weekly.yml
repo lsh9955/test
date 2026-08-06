@@ -10,6 +10,7 @@ on:
     paths:
       - ".github/workflows/update-suwon-trail-weekly.yml"
       - "scripts/update_suwon_trail_weekly.py"
+      - "scripts/run_suwon_trail_weekly.py"
 
 permissions:
   contents: write
@@ -21,7 +22,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 20
 
     steps:
       - name: Checkout
@@ -32,25 +33,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate weekly snapshot with network retry
+      - name: Generate weekly snapshot with batched network retry
         shell: bash
         run: |
-          set -uo pipefail
+          set -euo pipefail
           rm -f suwon-trail/weekly.json
-          success=false
-          for attempt in 1 2 3 4; do
-            echo "Weekly forecast attempt ${attempt}/4"
-            if python scripts/update_suwon_trail_weekly.py --output suwon-trail/weekly.json; then
-              success=true
-              break
-            fi
-            rm -f suwon-trail/weekly.json
-            sleep $((attempt * 15))
-          done
-          if [[ "$success" != "true" ]]; then
-            echo "All forecast attempts failed."
-            exit 1
-          fi
+          python scripts/run_suwon_trail_weekly.py --output suwon-trail/weekly.json
           python -m json.tool suwon-trail/weekly.json >/dev/null
 
       - name: Publish only when content changed
