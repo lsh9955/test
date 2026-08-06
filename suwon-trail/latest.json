@@ -1,7 +1,7 @@
 {
-  "versionCode": 20,
-  "versionName": "0.9.8",
-  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.8.apk",
-  "sha256": "4e1912e57a652d2fc44da9a6af666cc835ac2326710838e428903a5e01cc0330",
-  "notes": "GPS 경로를 실제 OpenStreetMap 배경 위에 표시하고, 웹 메르카토르 투영으로 경로 찌그러짐을 수정했어요."
+  "versionCode": 21,
+  "versionName": "0.9.9",
+  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.9.apk",
+  "sha256": "be42e4756e2907187afbd7316c5edf1e517bdb26df5900259c3fdf0d9c6bae20",
+  "notes": "매주 날씨와 추천 코스를 자동 갱신하고, 토·일 예보와 거리·상승고도·난이도·교통·블랙야크 인증·안전 주의사항을 함께 표시해요."
 }
