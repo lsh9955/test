@@ -1,0 +1,53 @@
+name: Update Suwon trail weekly recommendations
+
+on:
+  schedule:
+    # Every Monday 05:40 in Korea (Sunday 20:40 UTC).
+    - cron: "40 20 * * 0"
+  workflow_dispatch:
+  push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/update-suwon-trail-weekly.yml"
+      - "scripts/update_suwon_trail_weekly.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: suwon-trail-weekly-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Generate weekly snapshot
+        run: |
+          set -euo pipefail
+          python scripts/update_suwon_trail_weekly.py --output suwon-trail/weekly.json
+          python -m json.tool suwon-trail/weekly.json >/dev/null
+
+      - name: Publish only when content changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- suwon-trail/weekly.json; then
+            echo "No weekly data change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add suwon-trail/weekly.json
+          git commit -m "Update Suwon trail weekly recommendations"
+          git push origin HEAD:master
