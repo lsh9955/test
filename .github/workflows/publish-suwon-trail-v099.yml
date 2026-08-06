@@ -1,0 +1,76 @@
+name: Publish Suwon Trail v0.9.9 update
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/publish-suwon-trail-v099.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-suwon-trail-v099
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Download and verify v0.9.9 APK
+        shell: bash
+        env:
+          ARTIFACT_URL: "https://sdmntprsoutheastus3.oaiusercontent.com/files/00000000-b34c-820c-9366-394dd3796ea8/raw?se=2026-08-06T13%3A45%3A56Z&sp=r&sv=2026-02-06&sr=b&scid=44bd00ec-5ef9-5ed9-9c6e-1d426ccc0fd4&skoid=38550de5-1fab-49d1-9ebb-83af5557cc43&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-06T05%3A51%3A14Z&ske=2026-08-07T05%3A51%3A14Z&sks=b&skv=2026-02-06&sig=Ve83yLiiMMSenf4GzZaAseCAdfCUgSR2o9OKdXF3k18%3D"
+          EXPECTED_SHA256: "be42e4756e2907187afbd7316c5edf1e517bdb26df5900259c3fdf0d9c6bae20"
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 --retry-all-errors "$ARTIFACT_URL" -o /tmp/v099.zip
+          unzip -q /tmp/v099.zip -d /tmp/v099
+          APK="$(find /tmp/v099 -type f -name 'app-release.apk' -print -quit)"
+          test -n "$APK"
+          ACTUAL_SHA256="$(sha256sum "$APK" | cut -d' ' -f1)"
+          test "$ACTUAL_SHA256" = "$EXPECTED_SHA256"
+          cp "$APK" /tmp/suwon-trail-0.9.9.apk
+
+      - name: Publish to in-app update channel
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin suwon-trail-updates
+          git checkout -B suwon-trail-updates origin/suwon-trail-updates
+          mkdir -p suwon-trail
+          cp /tmp/suwon-trail-0.9.9.apk suwon-trail/suwon-trail-0.9.9.apk
+          cat > suwon-trail/latest.json <<'JSON'
+          {
+            "versionCode": 21,
+            "versionName": "0.9.9",
+            "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.9.apk",
+            "sha256": "be42e4756e2907187afbd7316c5edf1e517bdb26df5900259c3fdf0d9c6bae20",
+            "notes": "매주 날씨와 추천 코스를 자동 갱신하고, 토·일 예보와 거리·상승고도·난이도·교통·블랙야크 인증·안전 주의사항을 함께 표시해요."
+          }
+          JSON
+          printf '%s  %s\n' \
+            'be42e4756e2907187afbd7316c5edf1e517bdb26df5900259c3fdf0d9c6bae20' \
+            'suwon-trail-0.9.9.apk' > suwon-trail/SHA256SUMS
+          git add suwon-trail/suwon-trail-0.9.9.apk suwon-trail/latest.json suwon-trail/SHA256SUMS
+          git commit -m "Publish Suwon Trail v0.9.9 in-app update"
+          git push origin HEAD:suwon-trail-updates
+
+      - name: Remove one-time publisher
+        shell: bash
+        run: |
+          set -euo pipefail
+          git checkout master
+          git pull --ff-only origin master
+          git rm .github/workflows/publish-suwon-trail-v099.yml
+          git commit -m "Remove one-time v0.9.9 publisher"
+          git push origin HEAD:master
