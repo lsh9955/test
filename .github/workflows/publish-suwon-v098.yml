@@ -1,0 +1,54 @@
+name: Publish Suwon Trail v0.9.8
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/publish-suwon-v098.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout distribution branch
+        uses: actions/checkout@v6
+        with:
+          ref: suwon-trail-updates
+          fetch-depth: 0
+
+      - name: Download and verify v0.9.8
+        env:
+          ARTIFACT_URL: "https://sdmntprnznorth.oaiusercontent.com/files/00000000-a880-820b-ad00-342cda6da031/raw?se=2026-08-06T00:05:02Z&sp=r&sv=2026-02-06&sr=b&scid=5b516cd5-76ad-5127-bdb1-51812040854f&skoid=f5e14fda-2af7-44a3-9d18-d372ffcad871&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-05T23:42:26Z&ske=2026-08-06T23:42:26Z&sks=b&skv=2026-02-06&sig=UvBleXZAW2t7ma5xPX%2BkiDnxs%2B/425ZEV21mq4ZBCCs%3D"
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 "$ARTIFACT_URL" --output /tmp/suwon-v098.zip
+          rm -rf /tmp/suwon-v098
+          mkdir -p /tmp/suwon-v098
+          unzip -q /tmp/suwon-v098.zip -d /tmp/suwon-v098
+          APK=/tmp/suwon-v098/app/build/outputs/apk/release/app-release.apk
+          test -s "$APK"
+          echo "4e1912e57a652d2fc44da9a6af666cc835ac2326710838e428903a5e01cc0330  $APK" | sha256sum -c -
+          mkdir -p suwon-trail
+          cp "$APK" suwon-trail/suwon-trail-0.9.8.apk
+          cat > suwon-trail/latest.json <<'JSON'
+          {
+            "versionCode": 20,
+            "versionName": "0.9.8",
+            "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.8.apk",
+            "sha256": "4e1912e57a652d2fc44da9a6af666cc835ac2326710838e428903a5e01cc0330",
+            "notes": "GPS 경로를 실제 OpenStreetMap 배경 위에 표시하고, 웹 메르카토르 투영으로 경로 찌그러짐을 수정했어요."
+          }
+          JSON
+          printf '%s  %s\n' "4e1912e57a652d2fc44da9a6af666cc835ac2326710838e428903a5e01cc0330" "suwon-trail-0.9.8.apk" > suwon-trail/SHA256SUMS
+
+      - name: Publish update files
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add suwon-trail/
+          git commit -m "publish Suwon Trail v0.9.8"
+          git push origin HEAD:suwon-trail-updates
