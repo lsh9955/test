@@ -45,7 +45,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- suwon-trail/weekly.json; then
+          if [[ -z "$(git status --porcelain -- suwon-trail/weekly.json)" ]]; then
             echo "No weekly data change."
             exit 0
           fi
