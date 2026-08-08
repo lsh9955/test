@@ -1,7 +1,7 @@
 {
-  "versionCode": 23,
-  "versionName": "0.9.11",
-  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.11.apk",
-  "sha256": "c7eac098fed3a8e699d324f76d7135a4bca9e7baf78131ad868929a43736e8a6",
-  "notes": "화면이 반복 중첩되던 문제와 주말 추천 카드가 다시 접히던 문제를 긴급 수정했어요. 자동 생성 UI 재인식을 차단하고 펼침 상태를 안정적으로 유지합니다."
+  "versionCode": 24,
+  "versionName": "0.9.12",
+  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.12.apk",
+  "sha256": "cb3d53455a3d45fcbfdb47da37bf6b89d0a75627138b5b580ca81a84de68184f",
+  "notes": "전체 모바일 UI를 실제 화면으로 다시 검증했어요. 20개 코스 모두 상세 고저도를 전체 폭으로 정렬하고, 세로로 깨지던 문구와 과도한 여백을 수정했습니다. 주말 추천 펼침 상태와 코스명 표시, GPS 기록 목록·상세 화면도 함께 점검했습니다."
 }
