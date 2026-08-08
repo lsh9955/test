@@ -1,7 +1,7 @@
 {
-  "versionCode": 24,
-  "versionName": "0.9.12",
-  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.12.apk",
-  "sha256": "cb3d53455a3d45fcbfdb47da37bf6b89d0a75627138b5b580ca81a84de68184f",
-  "notes": "전체 모바일 UI를 실제 화면으로 다시 검증했어요. 20개 코스 모두 상세 고저도를 전체 폭으로 정렬하고, 세로로 깨지던 문구와 과도한 여백을 수정했습니다. 주말 추천 펼침 상태와 코스명 표시, GPS 기록 목록·상세 화면도 함께 점검했습니다."
+  "versionCode": 25,
+  "versionName": "0.9.13",
+  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.13.apk",
+  "sha256": "d65fae0eadb2d2d790537ddce6dcc185d1ed82cc8db6be45bf07b1975b3a402a",
+  "notes": "GPS 운동 기록을 열 때 Samsung Health를 매번 새로 조회하고, 조회 범위를 최근 90일·더 많은 운동으로 넓혔어요. GPS 경로가 있는 미분류/신규 운동 타입도 기록에 포함하고 최신 종료시간순으로 정렬합니다. 고저도 축·최고/최저·터치 정보 글씨도 모바일에서 더 크게 표시해요."
 }
