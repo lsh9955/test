@@ -1,0 +1,70 @@
+name: Publish Suwon Trail v0.9.13 update
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/publish-suwon-trail-v0913.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Download and verify v0.9.13 APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 --retry-all-errors \
+            'https://sdmntpraustraliaeast.oaiusercontent.com/files/00000000-a42c-81fa-b39e-71691ebd74a2/raw?se=2026-08-08T03%3A35%3A29Z&sp=r&sv=2026-02-06&sr=b&scid=4ac8c906-b993-5f84-99a0-5466e1cb3c65&skoid=f5e14fda-2af7-44a3-9d18-d372ffcad871&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-07T21%3A42%3A10Z&ske=2026-08-08T21%3A42%3A10Z&sks=b&skv=2026-02-06&sig=yYCUJ5euPxpGoSTxbH4zYFzjp3vVXbuEvSiuGC8k2A8%3D' \
+            --output /tmp/v0913.zip
+          rm -rf /tmp/v0913
+          mkdir -p /tmp/v0913
+          unzip -q /tmp/v0913.zip -d /tmp/v0913
+          APK=/tmp/v0913/app-release.apk
+          test -s "$APK"
+          echo 'd65fae0eadb2d2d790537ddce6dcc185d1ed82cc8db6be45bf07b1975b3a402a  /tmp/v0913/app-release.apk' | sha256sum -c -
+
+      - name: Publish to in-app update channel
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin suwon-trail-updates
+          git switch --force-create suwon-trail-updates origin/suwon-trail-updates
+          mkdir -p suwon-trail
+          cp /tmp/v0913/app-release.apk suwon-trail/suwon-trail-0.9.13.apk
+          cat > suwon-trail/latest.json <<'JSON'
+          {
+            "versionCode": 25,
+            "versionName": "0.9.13",
+            "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.9.13.apk",
+            "sha256": "d65fae0eadb2d2d790537ddce6dcc185d1ed82cc8db6be45bf07b1975b3a402a",
+            "notes": "GPS 운동 기록을 열 때 Samsung Health를 매번 새로 조회하고, 조회 범위를 최근 90일·더 많은 운동으로 넓혔어요. GPS 경로가 있는 미분류/신규 운동 타입도 기록에 포함하고 최신 종료시간순으로 정렬합니다. 고저도 축·최고/최저·터치 정보 글씨도 모바일에서 더 크게 표시해요."
+          }
+          JSON
+          printf '%s  %s\n' \
+            'd65fae0eadb2d2d790537ddce6dcc185d1ed82cc8db6be45bf07b1975b3a402a' \
+            'suwon-trail-0.9.13.apk' > suwon-trail/SHA256SUMS
+          git add suwon-trail/suwon-trail-0.9.13.apk suwon-trail/latest.json suwon-trail/SHA256SUMS
+          git commit -m "Publish Suwon Trail v0.9.13 update"
+          git push origin HEAD:suwon-trail-updates
+
+      - name: Remove one-time publisher
+        shell: bash
+        run: |
+          set -euo pipefail
+          git switch master
+          git pull --ff-only origin master
+          git rm .github/workflows/publish-suwon-trail-v0913.yml
+          git commit -m "Remove one-time v0.9.13 publisher"
+          git push origin master
