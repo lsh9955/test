@@ -11,6 +11,7 @@ on:
       - ".github/workflows/update-suwon-trail-weekly.yml"
       - "scripts/update_suwon_trail_weekly.py"
       - "scripts/run_suwon_trail_weekly.py"
+      - "scripts/enrich_suwon_trail_hourly.py"
 
 permissions:
   contents: write
@@ -33,13 +34,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate weekly snapshot with batched network retry
+      - name: Generate daily and hourly weekend snapshot
         shell: bash
         run: |
           set -euo pipefail
-          # v0.10.0 snapshot includes route provenance and forecast-derived safety fields.
           rm -f suwon-trail/weekly.json
           python scripts/run_suwon_trail_weekly.py --output suwon-trail/weekly.json
+          python scripts/enrich_suwon_trail_hourly.py --file suwon-trail/weekly.json
           python -m json.tool suwon-trail/weekly.json >/dev/null
 
       - name: Publish only when content changed
