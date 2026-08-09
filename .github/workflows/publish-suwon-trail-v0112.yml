@@ -1,0 +1,67 @@
+name: Publish Suwon Trail v0.11.2 update
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/publish-suwon-trail-v0112.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Download and verify v0.11.2 APK
+        shell: bash
+        env:
+          ARTIFACT_URL: "https://sdmntprseasia.oaiusercontent.com/files/00000000-5c8c-8207-8493-3db0d5faf7b0/raw?se=2026-08-09T11%3A52%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=7a040fb8-7d31-5913-922d-fea844d11a01&skoid=9063adf3-a524-4acf-b70a-8731b33f2f50&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-09T02%3A50%3A59Z&ske=2026-08-10T02%3A50%3A59Z&sks=b&skv=2026-02-06&sig=jVEOKLAruRIyRNjkNZFE56vyAs77qitERK0LVQ5Hnt8%3D"
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 --retry-all-errors "$ARTIFACT_URL" --output /tmp/v0112.zip
+          rm -rf /tmp/v0112 && mkdir -p /tmp/v0112
+          unzip -q /tmp/v0112.zip -d /tmp/v0112
+          APK=/tmp/v0112/app/build/outputs/apk/release/app-release.apk
+          test -s "$APK"
+          echo 'f4440f06ec6d5b56d96afea3ccbc73882596930d3670fd5c7358ad1fb02895ce  /tmp/v0112/app/build/outputs/apk/release/app-release.apk' | sha256sum -c -
+
+      - name: Publish to in-app update channel
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin suwon-trail-updates
+          git switch --force-create suwon-trail-updates origin/suwon-trail-updates
+          mkdir -p suwon-trail
+          cp /tmp/v0112/app/build/outputs/apk/release/app-release.apk suwon-trail/suwon-trail-0.11.2.apk
+          cat > suwon-trail/latest.json <<'JSON'
+          {
+            "versionCode": 29,
+            "versionName": "0.11.2",
+            "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.11.2.apk",
+            "sha256": "f4440f06ec6d5b56d96afea3ccbc73882596930d3670fd5c7358ad1fb02895ce",
+            "notes": "일요일 탭 전환 시 화면이 비는 문제를 수정했고, 50K 준비도에 현재값·기준값·획득점수·달성률·강점·우선 보완 항목·최근 훈련 부하를 자세히 보여주는 상세 분석을 추가했어요."
+          }
+          JSON
+          printf '%s  %s\n' 'f4440f06ec6d5b56d96afea3ccbc73882596930d3670fd5c7358ad1fb02895ce' 'suwon-trail-0.11.2.apk' > suwon-trail/SHA256SUMS
+          git add suwon-trail/suwon-trail-0.11.2.apk suwon-trail/latest.json suwon-trail/SHA256SUMS
+          git commit -m "Publish Suwon Trail v0.11.2 update"
+          git push origin HEAD:suwon-trail-updates
+
+      - name: Remove one-time publisher
+        shell: bash
+        run: |
+          set -euo pipefail
+          git switch master
+          git pull --ff-only origin master
+          git rm .github/workflows/publish-suwon-trail-v0112.yml
+          git commit -m "Remove one-time v0.11.2 publisher"
+          git push origin master
