@@ -37,6 +37,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          # v0.10.0 snapshot includes route provenance and forecast-derived safety fields.
           rm -f suwon-trail/weekly.json
           python scripts/run_suwon_trail_weekly.py --output suwon-trail/weekly.json
           python -m json.tool suwon-trail/weekly.json >/dev/null
