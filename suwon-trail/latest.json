@@ -1,7 +1,7 @@
 {
-  "versionCode": 29,
-  "versionName": "0.11.2",
-  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.11.2.apk",
-  "sha256": "f4440f06ec6d5b56d96afea3ccbc73882596930d3670fd5c7358ad1fb02895ce",
-  "notes": "일요일 탭 전환 시 화면이 비는 문제를 수정했고, 50K 준비도에 현재값·기준값·획득점수·달성률·강점·우선 보완 항목·최근 훈련 부하를 자세히 보여주는 상세 분석을 추가했어요."
+  "versionCode": 30,
+  "versionName": "0.12.0",
+  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.12.0.apk",
+  "sha256": "39d7ef0a546aa1b649bcaec26566a4b79e8c950d42b1a30767af86c994fe9deb",
+  "notes": "내 대회 기능을 추가했어요. 참가 예정/완료 대회를 로컬에 저장하고, 대회별 준비도와 D-day를 확인할 수 있습니다. 완료 대회는 날짜·거리가 비슷한 Samsung Health GPS 기록을 연결해 지도와 고저도를 열 수 있고, ITRA/UTMB 링크·점수·공식 기록·순위를 저장하거나 결과 텍스트 붙여넣기로 빠르게 입력할 수 있어요."
 }
