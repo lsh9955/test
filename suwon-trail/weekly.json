@@ -1,224 +1,121 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-08-06T22:29:04+09:00",
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-09T17:10:03+09:00",
   "refreshSchedule": "매주 월요일 05:40 KST 자동 갱신",
   "source": {
     "name": "Open-Meteo Forecast API",
     "url": "https://open-meteo.com/en/docs",
     "note": "공개 예보와 고정 코스 메타데이터만 사용하며 개인 운동 데이터는 사용하지 않아요."
   },
+  "officialChecks": {
+    "weatherWarnings": "https://www.weather.go.kr/",
+    "forestFireRisk": "https://fgis.forest.go.kr/",
+    "note": "앱의 안전 경고는 예보값 기반 보조 정보입니다. 기상특보·산불·입산통제는 출발 직전에 공식 정보를 다시 확인하세요."
+  },
   "weekend": {
-    "saturday": "2026-08-08",
-    "sunday": "2026-08-09"
+    "saturday": "2026-08-15",
+    "sunday": "2026-08-16"
   },
   "recommendations": [
     {
-      "id": "namhansanseong",
-      "name": "남한산성 성곽·검단산 순환",
-      "area": "광주·성남",
-      "distanceKm": 15.6,
-      "ascentM": 720,
-      "duration": "4시간~5시간 30분",
-      "difficulty": "중상",
-      "surface": "성곽길·임도·숲길",
-      "transport": "산성역·남한산성 로터리 방면",
-      "bac": "블랙야크 100대 명산 해당 없음",
-      "summary": "달릴 수 있는 완만한 구간이 비교적 많아 지속주 훈련에 적합",
-      "caution": "성곽 주변 보행객이 많아 혼잡 시간에는 감속하세요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 89,
-      "bestAdvice": "적극 추천",
+      "id": "gwanggyo-brothers",
+      "name": "광교산 형제봉 왕복",
+      "area": "수원·광교",
+      "distanceKm": 8.2,
+      "ascentM": 520,
+      "duration": "2시간 30분~3시간 30분",
+      "difficulty": "중",
+      "surface": "흙길·돌계단·능선",
+      "transport": "광교산입구·경기대 방면 접근",
+      "bac": "블랙야크 100대 명산 인증 지점은 시루봉",
+      "summary": "수원에서 접근이 쉽고 짧게 강도를 내기 좋은 대표 코스",
+      "caution": "비 뒤 돌계단과 뿌리 구간이 미끄러울 수 있어요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "광교산 형제봉 왕복 수원·광교",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 72,
+      "bestAdvice": "추천",
       "bestReasons": [
-        "강수 부담 적음",
         "능선 돌풍 주의",
         "더위 대비 필요",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 30.6,
-          "tempMinC": 22.9,
-          "apparentMaxC": 35.0,
-          "precipitationMm": 0.1,
-          "precipitationProbabilityPct": 68,
-          "windKph": 23.4,
-          "gustKph": 44.3,
+          "date": "2026-08-15",
+          "weatherCode": 95,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 30.2,
+          "tempMinC": 22.0,
+          "apparentMaxC": 34.0,
+          "precipitationMm": 15.0,
+          "precipitationProbabilityPct": 59,
+          "windKph": 13.2,
+          "gustKph": 41.4,
           "uvIndex": 7.5,
-          "sunrise": "05:41",
-          "sunset": "19:32",
-          "score": 56,
+          "sunrise": "05:47",
+          "sunset": "19:24",
+          "score": 10,
           "reasons": [
-            "비 가능성 높음",
+            "뇌우 가능성",
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "조건부 추천"
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 29.0,
-          "tempMinC": 21.1,
-          "apparentMaxC": 31.1,
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 29.4,
+          "tempMinC": 22.0,
+          "apparentMaxC": 32.1,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 16,
-          "windKph": 19.8,
-          "gustKph": 42.5,
+          "precipitationProbabilityPct": 43,
+          "windKph": 15.7,
+          "gustKph": 48.2,
           "uvIndex": 7.5,
-          "sunrise": "05:41",
-          "sunset": "19:31",
-          "score": 89,
+          "sunrise": "05:48",
+          "sunset": "19:23",
+          "score": 72,
           "reasons": [
-            "강수 부담 적음",
             "능선 돌풍 주의",
             "더위 대비 필요",
             "자외선 강함"
           ],
-          "advice": "적극 추천"
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
         }
       ],
       "rank": 1
-    },
-    {
-      "id": "gwanak-sadang",
-      "name": "관악산 사당·연주대",
-      "area": "서울·과천",
-      "distanceKm": 12.8,
-      "ascentM": 920,
-      "duration": "4시간 30분~6시간",
-      "difficulty": "상",
-      "surface": "암릉·바위·급경사",
-      "transport": "사당역 또는 과천향교 방면",
-      "bac": "블랙야크 100대 명산",
-      "summary": "바위와 급경사 대응 능력을 키우는 기술적인 산악 코스",
-      "caution": "강풍·우천 때 노출 암릉은 위험하므로 추천에서 크게 감점해요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 80,
-      "bestAdvice": "추천",
-      "bestReasons": [
-        "능선 돌풍 주의",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-08-08",
-          "weatherCode": 1,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 30.0,
-          "tempMinC": 21.7,
-          "apparentMaxC": 33.1,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 86,
-          "windKph": 21.2,
-          "gustKph": 42.1,
-          "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 57,
-          "reasons": [
-            "비 가능성 높음",
-            "능선 돌풍 주의",
-            "체감 폭염",
-            "자외선 강함"
-          ],
-          "advice": "조건부 추천"
-        },
-        {
-          "date": "2026-08-09",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 28.5,
-          "tempMinC": 20.5,
-          "apparentMaxC": 29.6,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 27,
-          "windKph": 19.4,
-          "gustKph": 44.6,
-          "uvIndex": 7.4,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 80,
-          "reasons": [
-            "능선 돌풍 주의",
-            "자외선 강함"
-          ],
-          "advice": "추천"
-        }
-      ],
-      "rank": 2
-    },
-    {
-      "id": "cheonggye-maebong",
-      "name": "청계산 옛골·매봉 순환",
-      "area": "성남·서울",
-      "distanceKm": 11.7,
-      "ascentM": 720,
-      "duration": "3시간 30분~5시간",
-      "difficulty": "중상",
-      "surface": "계단·능선·흙길",
-      "transport": "청계산입구역·옛골 방면",
-      "bac": "블랙야크 100대 명산+",
-      "summary": "교통이 편하고 계단·능선 강도를 함께 챙기기 좋은 코스",
-      "caution": "주말 혼잡 시간에는 달리기보다 보행 전환 구간이 많아요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 79,
-      "bestAdvice": "추천",
-      "bestReasons": [
-        "능선 돌풍 주의",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-08-08",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 29.2,
-          "tempMinC": 21.5,
-          "apparentMaxC": 32.2,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 86,
-          "windKph": 23.1,
-          "gustKph": 49.7,
-          "uvIndex": 7.5,
-          "sunrise": "05:41",
-          "sunset": "19:33",
-          "score": 50,
-          "reasons": [
-            "비 가능성 높음",
-            "능선 돌풍 주의",
-            "더위 대비 필요",
-            "자외선 강함"
-          ],
-          "advice": "짧은 대체 코스 권장"
-        },
-        {
-          "date": "2026-08-09",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 28.1,
-          "tempMinC": 20.2,
-          "apparentMaxC": 29.1,
-          "precipitationMm": 0.2,
-          "precipitationProbabilityPct": 27,
-          "windKph": 19.6,
-          "gustKph": 45.4,
-          "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:32",
-          "score": 79,
-          "reasons": [
-            "능선 돌풍 주의",
-            "자외선 강함"
-          ],
-          "advice": "추천"
-        }
-      ],
-      "rank": 3
     },
     {
       "id": "gwanggyo-sirubong",
@@ -233,8 +130,14 @@
       "bac": "블랙야크 100대 명산",
       "summary": "형제봉과 시루봉을 이어 달리는 수원 대표 장거리 능선",
       "caution": "더운 날에는 후반 급격히 체력이 떨어질 수 있어요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 77,
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "광교산 시루봉 종주 수원·용인",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 72,
       "bestAdvice": "추천",
       "bestReasons": [
         "능선 돌풍 주의",
@@ -243,119 +146,368 @@
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 30.5,
-          "tempMinC": 22.7,
-          "apparentMaxC": 34.3,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 94,
-          "windKph": 17.6,
-          "gustKph": 42.5,
+          "date": "2026-08-15",
+          "weatherCode": 95,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 29.8,
+          "tempMinC": 21.5,
+          "apparentMaxC": 33.3,
+          "precipitationMm": 15.0,
+          "precipitationProbabilityPct": 59,
+          "windKph": 13.2,
+          "gustKph": 41.4,
           "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 56,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 10,
           "reasons": [
-            "비 가능성 높음",
+            "뇌우 가능성",
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "조건부 추천"
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 29.4,
-          "tempMinC": 21.5,
-          "apparentMaxC": 31.2,
-          "precipitationMm": 0.1,
-          "precipitationProbabilityPct": 41,
-          "windKph": 18.1,
-          "gustKph": 42.5,
-          "uvIndex": 7.2,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 77,
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 29.0,
+          "tempMinC": 21.6,
+          "apparentMaxC": 31.5,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 43,
+          "windKph": 15.7,
+          "gustKph": 48.2,
+          "uvIndex": 7.5,
+          "sunrise": "05:48",
+          "sunset": "19:23",
+          "score": 72,
           "reasons": [
             "능선 돌풍 주의",
             "더위 대비 필요",
             "자외선 강함"
           ],
-          "advice": "추천"
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "id": "seokseong-halmi",
+      "name": "석성산·할미산성 순환",
+      "area": "용인",
+      "distanceKm": 10.8,
+      "ascentM": 610,
+      "duration": "3시간~4시간 30분",
+      "difficulty": "중",
+      "surface": "숲길·능선·계단",
+      "transport": "동백·용인시청 방면",
+      "bac": "블랙야크 100대 명산 해당 없음",
+      "summary": "수원 동쪽에서 접근하기 좋고 숲길 비중이 높은 중거리 코스",
+      "caution": "일부 도로 횡단과 갈림길에서 경로 확인이 필요해요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "석성산·할미산성 순환 용인",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 71,
+      "bestAdvice": "추천",
+      "bestReasons": [
+        "능선 돌풍 주의",
+        "더위 대비 필요",
+        "자외선 매우 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-08-15",
+          "weatherCode": 96,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 32.1,
+          "tempMinC": 21.3,
+          "apparentMaxC": 34.7,
+          "precipitationMm": 16.3,
+          "precipitationProbabilityPct": 55,
+          "windKph": 15.3,
+          "gustKph": 42.5,
+          "uvIndex": 7.7,
+          "sunrise": "05:47",
+          "sunset": "19:24",
+          "score": 13,
+          "reasons": [
+            "뇌우 가능성",
+            "능선 돌풍 주의",
+            "체감 폭염",
+            "자외선 강함"
+          ],
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 29.9,
+          "tempMinC": 21.8,
+          "apparentMaxC": 32.5,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 39,
+          "windKph": 16.5,
+          "gustKph": 48.2,
+          "uvIndex": 8.0,
+          "sunrise": "05:48",
+          "sunset": "19:22",
+          "score": 71,
+          "reasons": [
+            "능선 돌풍 주의",
+            "더위 대비 필요",
+            "자외선 매우 강함"
+          ],
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비",
+              "자외선 매우 강함"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:22",
+            "officialCheckRequired": true
+          }
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "id": "cheonggye-maebong",
+      "name": "청계산 옛골·매봉 순환",
+      "area": "성남·서울",
+      "distanceKm": 11.7,
+      "ascentM": 720,
+      "duration": "3시간 30분~5시간",
+      "difficulty": "중상",
+      "surface": "계단·능선·흙길",
+      "transport": "청계산입구역·옛골 방면",
+      "bac": "블랙야크 100대 명산+",
+      "summary": "교통이 편하고 계단·능선 강도를 함께 챙기기 좋은 코스",
+      "caution": "주말 혼잡 시간에는 달리기보다 보행 전환 구간이 많아요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "청계산 옛골·매봉 순환 성남·서울",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 71,
+      "bestAdvice": "추천",
+      "bestReasons": [
+        "능선 돌풍 주의",
+        "자외선 매우 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-08-15",
+          "weatherCode": 95,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 30.8,
+          "tempMinC": 20.5,
+          "apparentMaxC": 32.8,
+          "precipitationMm": 14.4,
+          "precipitationProbabilityPct": 65,
+          "windKph": 12.6,
+          "gustKph": 44.6,
+          "uvIndex": 7.8,
+          "sunrise": "05:47",
+          "sunset": "19:25",
+          "score": 6,
+          "reasons": [
+            "뇌우 가능성",
+            "능선 돌풍 주의",
+            "더위 대비 필요",
+            "자외선 강함"
+          ],
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 28.4,
+          "tempMinC": 20.6,
+          "apparentMaxC": 30.2,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 46,
+          "windKph": 13.8,
+          "gustKph": 47.5,
+          "uvIndex": 8.0,
+          "sunrise": "05:48",
+          "sunset": "19:23",
+          "score": 71,
+          "reasons": [
+            "능선 돌풍 주의",
+            "자외선 매우 강함"
+          ],
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "자외선 매우 강함"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
         }
       ],
       "rank": 4
     },
     {
-      "id": "samseong-hoam",
-      "name": "삼성산·호암산 연계",
-      "area": "서울·안양",
-      "distanceKm": 14.1,
-      "ascentM": 880,
+      "id": "gwanak-sadang",
+      "name": "관악산 사당·연주대",
+      "area": "서울·과천",
+      "distanceKm": 12.8,
+      "ascentM": 920,
       "duration": "4시간 30분~6시간",
-      "difficulty": "중상",
-      "surface": "바위·능선·숲길",
-      "transport": "관악역·석수역 방면",
-      "bac": "블랙야크 100대 명산 해당 없음",
-      "summary": "관악산보다 한적한 바위 능선과 긴 연결 구간을 즐기는 코스",
-      "caution": "바위 표면이 젖으면 속도를 크게 낮춰야 해요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 76,
+      "difficulty": "상",
+      "surface": "암릉·바위·급경사",
+      "transport": "사당역 또는 과천향교 방면",
+      "bac": "블랙야크 100대 명산",
+      "summary": "바위와 급경사 대응 능력을 키우는 기술적인 산악 코스",
+      "caution": "강풍·우천 때 노출 암릉은 위험하므로 추천에서 크게 감점해요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "관악산 사당·연주대 서울·과천",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 71,
       "bestAdvice": "추천",
       "bestReasons": [
         "능선 돌풍 주의",
-        "더위 대비 필요",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 1,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 32.2,
-          "tempMinC": 24.0,
-          "apparentMaxC": 36.5,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 86,
-          "windKph": 21.2,
-          "gustKph": 42.1,
-          "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 49,
+          "date": "2026-08-15",
+          "weatherCode": 80,
+          "weatherLabel": "비",
+          "tempMaxC": 27.0,
+          "tempMinC": 20.7,
+          "apparentMaxC": 30.6,
+          "precipitationMm": 9.6,
+          "precipitationProbabilityPct": 65,
+          "windKph": 13.2,
+          "gustKph": 42.8,
+          "uvIndex": 7.8,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 38,
           "reasons": [
             "비 가능성 높음",
             "능선 돌풍 주의",
-            "체감 폭염",
-            "자외선 강함"
+            "자외선 강함",
+            "젖은 암릉 위험"
           ],
-          "advice": "짧은 대체 코스 권장"
+          "advice": "짧은 대체 코스 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "젖은 노면 주의",
+              "돌풍 주의",
+              "암릉·바위 미끄럼"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 30.7,
-          "tempMinC": 22.7,
-          "apparentMaxC": 32.9,
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 28.2,
+          "tempMinC": 21.0,
+          "apparentMaxC": 30.0,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 27,
-          "windKph": 19.4,
-          "gustKph": 44.6,
-          "uvIndex": 7.4,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 76,
+          "precipitationProbabilityPct": 46,
+          "windKph": 15.3,
+          "gustKph": 49.3,
+          "uvIndex": 7.5,
+          "sunrise": "05:48",
+          "sunset": "19:24",
+          "score": 71,
           "reasons": [
             "능선 돌풍 주의",
-            "더위 대비 필요",
             "자외선 강함"
           ],
-          "advice": "추천"
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
         }
       ],
       "rank": 5
@@ -363,207 +515,101 @@
   ],
   "routes": [
     {
-      "id": "namhansanseong",
-      "name": "남한산성 성곽·검단산 순환",
-      "area": "광주·성남",
-      "distanceKm": 15.6,
-      "ascentM": 720,
-      "duration": "4시간~5시간 30분",
-      "difficulty": "중상",
-      "surface": "성곽길·임도·숲길",
-      "transport": "산성역·남한산성 로터리 방면",
-      "bac": "블랙야크 100대 명산 해당 없음",
-      "summary": "달릴 수 있는 완만한 구간이 비교적 많아 지속주 훈련에 적합",
-      "caution": "성곽 주변 보행객이 많아 혼잡 시간에는 감속하세요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 89,
-      "bestAdvice": "적극 추천",
+      "id": "gwanggyo-brothers",
+      "name": "광교산 형제봉 왕복",
+      "area": "수원·광교",
+      "distanceKm": 8.2,
+      "ascentM": 520,
+      "duration": "2시간 30분~3시간 30분",
+      "difficulty": "중",
+      "surface": "흙길·돌계단·능선",
+      "transport": "광교산입구·경기대 방면 접근",
+      "bac": "블랙야크 100대 명산 인증 지점은 시루봉",
+      "summary": "수원에서 접근이 쉽고 짧게 강도를 내기 좋은 대표 코스",
+      "caution": "비 뒤 돌계단과 뿌리 구간이 미끄러울 수 있어요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "광교산 형제봉 왕복 수원·광교",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 72,
+      "bestAdvice": "추천",
       "bestReasons": [
-        "강수 부담 적음",
         "능선 돌풍 주의",
         "더위 대비 필요",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 30.6,
-          "tempMinC": 22.9,
-          "apparentMaxC": 35.0,
-          "precipitationMm": 0.1,
-          "precipitationProbabilityPct": 68,
-          "windKph": 23.4,
-          "gustKph": 44.3,
+          "date": "2026-08-15",
+          "weatherCode": 95,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 30.2,
+          "tempMinC": 22.0,
+          "apparentMaxC": 34.0,
+          "precipitationMm": 15.0,
+          "precipitationProbabilityPct": 59,
+          "windKph": 13.2,
+          "gustKph": 41.4,
           "uvIndex": 7.5,
-          "sunrise": "05:41",
-          "sunset": "19:32",
-          "score": 56,
+          "sunrise": "05:47",
+          "sunset": "19:24",
+          "score": 10,
           "reasons": [
-            "비 가능성 높음",
+            "뇌우 가능성",
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "조건부 추천"
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 29.0,
-          "tempMinC": 21.1,
-          "apparentMaxC": 31.1,
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 29.4,
+          "tempMinC": 22.0,
+          "apparentMaxC": 32.1,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 16,
-          "windKph": 19.8,
-          "gustKph": 42.5,
+          "precipitationProbabilityPct": 43,
+          "windKph": 15.7,
+          "gustKph": 48.2,
           "uvIndex": 7.5,
-          "sunrise": "05:41",
-          "sunset": "19:31",
-          "score": 89,
+          "sunrise": "05:48",
+          "sunset": "19:23",
+          "score": 72,
           "reasons": [
-            "강수 부담 적음",
             "능선 돌풍 주의",
             "더위 대비 필요",
             "자외선 강함"
           ],
-          "advice": "적극 추천"
-        }
-      ]
-    },
-    {
-      "id": "gwanak-sadang",
-      "name": "관악산 사당·연주대",
-      "area": "서울·과천",
-      "distanceKm": 12.8,
-      "ascentM": 920,
-      "duration": "4시간 30분~6시간",
-      "difficulty": "상",
-      "surface": "암릉·바위·급경사",
-      "transport": "사당역 또는 과천향교 방면",
-      "bac": "블랙야크 100대 명산",
-      "summary": "바위와 급경사 대응 능력을 키우는 기술적인 산악 코스",
-      "caution": "강풍·우천 때 노출 암릉은 위험하므로 추천에서 크게 감점해요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 80,
-      "bestAdvice": "추천",
-      "bestReasons": [
-        "능선 돌풍 주의",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-08-08",
-          "weatherCode": 1,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 30.0,
-          "tempMinC": 21.7,
-          "apparentMaxC": 33.1,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 86,
-          "windKph": 21.2,
-          "gustKph": 42.1,
-          "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 57,
-          "reasons": [
-            "비 가능성 높음",
-            "능선 돌풍 주의",
-            "체감 폭염",
-            "자외선 강함"
-          ],
-          "advice": "조건부 추천"
-        },
-        {
-          "date": "2026-08-09",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 28.5,
-          "tempMinC": 20.5,
-          "apparentMaxC": 29.6,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 27,
-          "windKph": 19.4,
-          "gustKph": 44.6,
-          "uvIndex": 7.4,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 80,
-          "reasons": [
-            "능선 돌풍 주의",
-            "자외선 강함"
-          ],
-          "advice": "추천"
-        }
-      ]
-    },
-    {
-      "id": "cheonggye-maebong",
-      "name": "청계산 옛골·매봉 순환",
-      "area": "성남·서울",
-      "distanceKm": 11.7,
-      "ascentM": 720,
-      "duration": "3시간 30분~5시간",
-      "difficulty": "중상",
-      "surface": "계단·능선·흙길",
-      "transport": "청계산입구역·옛골 방면",
-      "bac": "블랙야크 100대 명산+",
-      "summary": "교통이 편하고 계단·능선 강도를 함께 챙기기 좋은 코스",
-      "caution": "주말 혼잡 시간에는 달리기보다 보행 전환 구간이 많아요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 79,
-      "bestAdvice": "추천",
-      "bestReasons": [
-        "능선 돌풍 주의",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-08-08",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 29.2,
-          "tempMinC": 21.5,
-          "apparentMaxC": 32.2,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 86,
-          "windKph": 23.1,
-          "gustKph": 49.7,
-          "uvIndex": 7.5,
-          "sunrise": "05:41",
-          "sunset": "19:33",
-          "score": 50,
-          "reasons": [
-            "비 가능성 높음",
-            "능선 돌풍 주의",
-            "더위 대비 필요",
-            "자외선 강함"
-          ],
-          "advice": "짧은 대체 코스 권장"
-        },
-        {
-          "date": "2026-08-09",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 28.1,
-          "tempMinC": 20.2,
-          "apparentMaxC": 29.1,
-          "precipitationMm": 0.2,
-          "precipitationProbabilityPct": 27,
-          "windKph": 19.6,
-          "gustKph": 45.4,
-          "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:32",
-          "score": 79,
-          "reasons": [
-            "능선 돌풍 주의",
-            "자외선 강함"
-          ],
-          "advice": "추천"
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
         }
       ]
     },
@@ -580,8 +626,14 @@
       "bac": "블랙야크 100대 명산",
       "summary": "형제봉과 시루봉을 이어 달리는 수원 대표 장거리 능선",
       "caution": "더운 날에는 후반 급격히 체력이 떨어질 수 있어요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 77,
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "광교산 시루봉 종주 수원·용인",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 72,
       "bestAdvice": "추천",
       "bestReasons": [
         "능선 돌풍 주의",
@@ -590,256 +642,73 @@
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 30.5,
-          "tempMinC": 22.7,
-          "apparentMaxC": 34.3,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 94,
-          "windKph": 17.6,
-          "gustKph": 42.5,
-          "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 56,
-          "reasons": [
-            "비 가능성 높음",
-            "능선 돌풍 주의",
-            "체감 폭염",
-            "자외선 강함"
-          ],
-          "advice": "조건부 추천"
-        },
-        {
-          "date": "2026-08-09",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 29.4,
+          "date": "2026-08-15",
+          "weatherCode": 95,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 29.8,
           "tempMinC": 21.5,
-          "apparentMaxC": 31.2,
-          "precipitationMm": 0.1,
-          "precipitationProbabilityPct": 41,
-          "windKph": 18.1,
-          "gustKph": 42.5,
-          "uvIndex": 7.2,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 77,
-          "reasons": [
-            "능선 돌풍 주의",
-            "더위 대비 필요",
-            "자외선 강함"
-          ],
-          "advice": "추천"
-        }
-      ]
-    },
-    {
-      "id": "samseong-hoam",
-      "name": "삼성산·호암산 연계",
-      "area": "서울·안양",
-      "distanceKm": 14.1,
-      "ascentM": 880,
-      "duration": "4시간 30분~6시간",
-      "difficulty": "중상",
-      "surface": "바위·능선·숲길",
-      "transport": "관악역·석수역 방면",
-      "bac": "블랙야크 100대 명산 해당 없음",
-      "summary": "관악산보다 한적한 바위 능선과 긴 연결 구간을 즐기는 코스",
-      "caution": "바위 표면이 젖으면 속도를 크게 낮춰야 해요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 76,
-      "bestAdvice": "추천",
-      "bestReasons": [
-        "능선 돌풍 주의",
-        "더위 대비 필요",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-08-08",
-          "weatherCode": 1,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 32.2,
-          "tempMinC": 24.0,
-          "apparentMaxC": 36.5,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 86,
-          "windKph": 21.2,
-          "gustKph": 42.1,
+          "apparentMaxC": 33.3,
+          "precipitationMm": 15.0,
+          "precipitationProbabilityPct": 59,
+          "windKph": 13.2,
+          "gustKph": 41.4,
           "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 49,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 10,
           "reasons": [
-            "비 가능성 높음",
+            "뇌우 가능성",
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "짧은 대체 코스 권장"
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 30.7,
-          "tempMinC": 22.7,
-          "apparentMaxC": 32.9,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 27,
-          "windKph": 19.4,
-          "gustKph": 44.6,
-          "uvIndex": 7.4,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 76,
-          "reasons": [
-            "능선 돌풍 주의",
-            "더위 대비 필요",
-            "자외선 강함"
-          ],
-          "advice": "추천"
-        }
-      ]
-    },
-    {
-      "id": "chilbo-ridge",
-      "name": "칠보산 능선 순환",
-      "area": "수원·화성",
-      "distanceKm": 9.6,
-      "ascentM": 430,
-      "duration": "2시간 30분~4시간",
-      "difficulty": "중",
-      "surface": "완만한 능선·흙길",
-      "transport": "호매실·칠보산 입구 방면",
-      "bac": "블랙야크 100대 명산 해당 없음",
-      "summary": "수원 서부에서 짧은 업다운을 반복하기 좋은 숲길",
-      "caution": "갈림길이 많아 GPX 확인이 도움이 돼요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 75,
-      "bestAdvice": "추천",
-      "bestReasons": [
-        "능선 돌풍 주의",
-        "체감 폭염",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-08-08",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 32.4,
-          "tempMinC": 24.2,
-          "apparentMaxC": 37.7,
-          "precipitationMm": 0.2,
-          "precipitationProbabilityPct": 94,
-          "windKph": 20.9,
-          "gustKph": 42.5,
-          "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 49,
-          "reasons": [
-            "비 가능성 높음",
-            "능선 돌풍 주의",
-            "체감 폭염",
-            "자외선 강함"
-          ],
-          "advice": "짧은 대체 코스 권장"
-        },
-        {
-          "date": "2026-08-09",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 32.2,
-          "tempMinC": 23.3,
-          "apparentMaxC": 34.4,
-          "precipitationMm": 0.3,
-          "precipitationProbabilityPct": 41,
-          "windKph": 19.7,
-          "gustKph": 39.6,
-          "uvIndex": 7.2,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 75,
-          "reasons": [
-            "능선 돌풍 주의",
-            "체감 폭염",
-            "자외선 강함"
-          ],
-          "advice": "추천"
-        }
-      ]
-    },
-    {
-      "id": "bulgok-yeongjang",
-      "name": "불곡산·영장산 연계",
-      "area": "성남·분당",
-      "distanceKm": 13.2,
-      "ascentM": 610,
-      "duration": "3시간 30분~5시간",
-      "difficulty": "중",
-      "surface": "흙길·완만한 능선",
-      "transport": "오리역·태재고개 방면",
-      "bac": "블랙야크 100대 명산 해당 없음",
-      "summary": "완만한 흙길 비중이 높아 페이스 유지 훈련에 좋은 코스",
-      "caution": "비 뒤 진흙이 오래 남는 구간이 있어 신발 선택이 중요해요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 75,
-      "bestAdvice": "추천",
-      "bestReasons": [
-        "능선 돌풍 주의",
-        "체감 폭염",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-08-08",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 32.3,
-          "tempMinC": 24.5,
-          "apparentMaxC": 37.8,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 96,
-          "windKph": 20.1,
-          "gustKph": 44.6,
-          "uvIndex": 7.5,
-          "sunrise": "05:41",
-          "sunset": "19:32",
-          "score": 46,
-          "reasons": [
-            "비 가능성 높음",
-            "능선 돌풍 주의",
-            "체감 폭염",
-            "자외선 강함"
-          ],
-          "advice": "짧은 대체 코스 권장"
-        },
-        {
-          "date": "2026-08-09",
+          "date": "2026-08-16",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 30.6,
-          "tempMinC": 22.6,
-          "apparentMaxC": 34.0,
-          "precipitationMm": 0.1,
-          "precipitationProbabilityPct": 37,
-          "windKph": 18.8,
-          "gustKph": 43.6,
-          "uvIndex": 7.2,
-          "sunrise": "05:42",
-          "sunset": "19:31",
-          "score": 75,
+          "tempMaxC": 29.0,
+          "tempMinC": 21.6,
+          "apparentMaxC": 31.5,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 43,
+          "windKph": 15.7,
+          "gustKph": 48.2,
+          "uvIndex": 7.5,
+          "sunrise": "05:48",
+          "sunset": "19:23",
+          "score": 72,
           "reasons": [
             "능선 돌풍 주의",
-            "체감 폭염",
+            "더위 대비 필요",
             "자외선 강함"
           ],
-          "advice": "추천"
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
         }
       ]
     },
@@ -856,128 +725,482 @@
       "bac": "블랙야크 100대 명산 해당 없음",
       "summary": "수원 동쪽에서 접근하기 좋고 숲길 비중이 높은 중거리 코스",
       "caution": "일부 도로 횡단과 갈림길에서 경로 확인이 필요해요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 74,
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "석성산·할미산성 순환 용인",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 71,
       "bestAdvice": "추천",
       "bestReasons": [
         "능선 돌풍 주의",
         "더위 대비 필요",
-        "자외선 강함"
+        "자외선 매우 강함"
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 31.2,
-          "tempMinC": 23.5,
-          "apparentMaxC": 35.6,
-          "precipitationMm": 0.1,
-          "precipitationProbabilityPct": 96,
-          "windKph": 20.1,
-          "gustKph": 43.6,
-          "uvIndex": 7.5,
-          "sunrise": "05:41",
-          "sunset": "19:32",
-          "score": 51,
+          "date": "2026-08-15",
+          "weatherCode": 96,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 32.1,
+          "tempMinC": 21.3,
+          "apparentMaxC": 34.7,
+          "precipitationMm": 16.3,
+          "precipitationProbabilityPct": 55,
+          "windKph": 15.3,
+          "gustKph": 42.5,
+          "uvIndex": 7.7,
+          "sunrise": "05:47",
+          "sunset": "19:24",
+          "score": 13,
           "reasons": [
-            "비 가능성 높음",
+            "뇌우 가능성",
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "짧은 대체 코스 권장"
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
+          "date": "2026-08-16",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 29.6,
-          "tempMinC": 21.5,
-          "apparentMaxC": 32.3,
-          "precipitationMm": 0.4,
-          "precipitationProbabilityPct": 37,
-          "windKph": 19.4,
-          "gustKph": 45.0,
-          "uvIndex": 7.2,
-          "sunrise": "05:42",
-          "sunset": "19:31",
-          "score": 74,
+          "tempMaxC": 29.9,
+          "tempMinC": 21.8,
+          "apparentMaxC": 32.5,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 39,
+          "windKph": 16.5,
+          "gustKph": 48.2,
+          "uvIndex": 8.0,
+          "sunrise": "05:48",
+          "sunset": "19:22",
+          "score": 71,
           "reasons": [
             "능선 돌풍 주의",
             "더위 대비 필요",
-            "자외선 강함"
+            "자외선 매우 강함"
           ],
-          "advice": "추천"
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비",
+              "자외선 매우 강함"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:22",
+            "officialCheckRequired": true
+          }
         }
       ]
     },
     {
-      "id": "gwanggyo-brothers",
-      "name": "광교산 형제봉 왕복",
-      "area": "수원·광교",
-      "distanceKm": 8.2,
-      "ascentM": 520,
-      "duration": "2시간 30분~3시간 30분",
-      "difficulty": "중",
-      "surface": "흙길·돌계단·능선",
-      "transport": "광교산입구·경기대 방면 접근",
-      "bac": "블랙야크 100대 명산 인증 지점은 시루봉",
-      "summary": "수원에서 접근이 쉽고 짧게 강도를 내기 좋은 대표 코스",
-      "caution": "비 뒤 돌계단과 뿌리 구간이 미끄러울 수 있어요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 73,
+      "id": "cheonggye-maebong",
+      "name": "청계산 옛골·매봉 순환",
+      "area": "성남·서울",
+      "distanceKm": 11.7,
+      "ascentM": 720,
+      "duration": "3시간 30분~5시간",
+      "difficulty": "중상",
+      "surface": "계단·능선·흙길",
+      "transport": "청계산입구역·옛골 방면",
+      "bac": "블랙야크 100대 명산+",
+      "summary": "교통이 편하고 계단·능선 강도를 함께 챙기기 좋은 코스",
+      "caution": "주말 혼잡 시간에는 달리기보다 보행 전환 구간이 많아요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "청계산 옛골·매봉 순환 성남·서울",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 71,
       "bestAdvice": "추천",
       "bestReasons": [
         "능선 돌풍 주의",
-        "더위 대비 필요",
-        "자외선 강함"
+        "자외선 매우 강함"
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 30.9,
-          "tempMinC": 23.0,
-          "apparentMaxC": 34.7,
-          "precipitationMm": 0.2,
-          "precipitationProbabilityPct": 94,
-          "windKph": 22.4,
-          "gustKph": 42.5,
-          "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:32",
-          "score": 50,
+          "date": "2026-08-15",
+          "weatherCode": 95,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 30.8,
+          "tempMinC": 20.5,
+          "apparentMaxC": 32.8,
+          "precipitationMm": 14.4,
+          "precipitationProbabilityPct": 65,
+          "windKph": 12.6,
+          "gustKph": 44.6,
+          "uvIndex": 7.8,
+          "sunrise": "05:47",
+          "sunset": "19:25",
+          "score": 6,
           "reasons": [
-            "비 가능성 높음",
-            "능선 돌풍 주의",
-            "체감 폭염",
-            "자외선 강함"
-          ],
-          "advice": "짧은 대체 코스 권장"
-        },
-        {
-          "date": "2026-08-09",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 29.9,
-          "tempMinC": 21.9,
-          "apparentMaxC": 31.7,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 41,
-          "windKph": 21.3,
-          "gustKph": 42.5,
-          "uvIndex": 7.2,
-          "sunrise": "05:42",
-          "sunset": "19:31",
-          "score": 73,
-          "reasons": [
+            "뇌우 가능성",
             "능선 돌풍 주의",
             "더위 대비 필요",
             "자외선 강함"
           ],
-          "advice": "추천"
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 28.4,
+          "tempMinC": 20.6,
+          "apparentMaxC": 30.2,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 46,
+          "windKph": 13.8,
+          "gustKph": 47.5,
+          "uvIndex": 8.0,
+          "sunrise": "05:48",
+          "sunset": "19:23",
+          "score": 71,
+          "reasons": [
+            "능선 돌풍 주의",
+            "자외선 매우 강함"
+          ],
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "자외선 매우 강함"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "gwanak-sadang",
+      "name": "관악산 사당·연주대",
+      "area": "서울·과천",
+      "distanceKm": 12.8,
+      "ascentM": 920,
+      "duration": "4시간 30분~6시간",
+      "difficulty": "상",
+      "surface": "암릉·바위·급경사",
+      "transport": "사당역 또는 과천향교 방면",
+      "bac": "블랙야크 100대 명산",
+      "summary": "바위와 급경사 대응 능력을 키우는 기술적인 산악 코스",
+      "caution": "강풍·우천 때 노출 암릉은 위험하므로 추천에서 크게 감점해요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "관악산 사당·연주대 서울·과천",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 71,
+      "bestAdvice": "추천",
+      "bestReasons": [
+        "능선 돌풍 주의",
+        "자외선 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-08-15",
+          "weatherCode": 80,
+          "weatherLabel": "비",
+          "tempMaxC": 27.0,
+          "tempMinC": 20.7,
+          "apparentMaxC": 30.6,
+          "precipitationMm": 9.6,
+          "precipitationProbabilityPct": 65,
+          "windKph": 13.2,
+          "gustKph": 42.8,
+          "uvIndex": 7.8,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 38,
+          "reasons": [
+            "비 가능성 높음",
+            "능선 돌풍 주의",
+            "자외선 강함",
+            "젖은 암릉 위험"
+          ],
+          "advice": "짧은 대체 코스 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "젖은 노면 주의",
+              "돌풍 주의",
+              "암릉·바위 미끄럼"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 28.2,
+          "tempMinC": 21.0,
+          "apparentMaxC": 30.0,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 46,
+          "windKph": 15.3,
+          "gustKph": 49.3,
+          "uvIndex": 7.5,
+          "sunrise": "05:48",
+          "sunset": "19:24",
+          "score": 71,
+          "reasons": [
+            "능선 돌풍 주의",
+            "자외선 강함"
+          ],
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "bulgok-yeongjang",
+      "name": "불곡산·영장산 연계",
+      "area": "성남·분당",
+      "distanceKm": 13.2,
+      "ascentM": 610,
+      "duration": "3시간 30분~5시간",
+      "difficulty": "중",
+      "surface": "흙길·완만한 능선",
+      "transport": "오리역·태재고개 방면",
+      "bac": "블랙야크 100대 명산 해당 없음",
+      "summary": "완만한 흙길 비중이 높아 페이스 유지 훈련에 좋은 코스",
+      "caution": "비 뒤 진흙이 오래 남는 구간이 있어 신발 선택이 중요해요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "불곡산·영장산 연계 성남·분당",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 71,
+      "bestAdvice": "추천",
+      "bestReasons": [
+        "능선 돌풍 주의",
+        "체감 폭염",
+        "자외선 매우 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-08-15",
+          "weatherCode": 96,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 32.9,
+          "tempMinC": 22.4,
+          "apparentMaxC": 36.1,
+          "precipitationMm": 18.7,
+          "precipitationProbabilityPct": 55,
+          "windKph": 14.4,
+          "gustKph": 42.8,
+          "uvIndex": 7.7,
+          "sunrise": "05:47",
+          "sunset": "19:24",
+          "score": 6,
+          "reasons": [
+            "뇌우 가능성",
+            "능선 돌풍 주의",
+            "체감 폭염",
+            "자외선 강함"
+          ],
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "체감 폭염"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 30.8,
+          "tempMinC": 22.9,
+          "apparentMaxC": 33.8,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 39,
+          "windKph": 15.7,
+          "gustKph": 46.4,
+          "uvIndex": 8.0,
+          "sunrise": "05:48",
+          "sunset": "19:23",
+          "score": 71,
+          "reasons": [
+            "능선 돌풍 주의",
+            "체감 폭염",
+            "자외선 매우 강함"
+          ],
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비",
+              "자외선 매우 강함"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "namhansanseong",
+      "name": "남한산성 성곽·검단산 순환",
+      "area": "광주·성남",
+      "distanceKm": 15.6,
+      "ascentM": 720,
+      "duration": "4시간~5시간 30분",
+      "difficulty": "중상",
+      "surface": "성곽길·임도·숲길",
+      "transport": "산성역·남한산성 로터리 방면",
+      "bac": "블랙야크 100대 명산 해당 없음",
+      "summary": "달릴 수 있는 완만한 구간이 비교적 많아 지속주 훈련에 적합",
+      "caution": "성곽 주변 보행객이 많아 혼잡 시간에는 감속하세요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "남한산성 성곽·검단산 순환 광주·성남",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 70,
+      "bestAdvice": "추천",
+      "bestReasons": [
+        "능선 돌풍 주의",
+        "더위 대비 필요",
+        "자외선 매우 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-08-15",
+          "weatherCode": 95,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 31.8,
+          "tempMinC": 21.3,
+          "apparentMaxC": 34.1,
+          "precipitationMm": 12.8,
+          "precipitationProbabilityPct": 49,
+          "windKph": 16.0,
+          "gustKph": 44.6,
+          "uvIndex": 7.7,
+          "sunrise": "05:47",
+          "sunset": "19:24",
+          "score": 15,
+          "reasons": [
+            "뇌우 가능성",
+            "능선 돌풍 주의",
+            "체감 폭염",
+            "자외선 강함"
+          ],
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "weatherCode": 51,
+          "weatherLabel": "이슬비",
+          "tempMaxC": 30.5,
+          "tempMinC": 21.7,
+          "apparentMaxC": 32.7,
+          "precipitationMm": 0.6,
+          "precipitationProbabilityPct": 37,
+          "windKph": 14.3,
+          "gustKph": 47.2,
+          "uvIndex": 8.1,
+          "sunrise": "05:47",
+          "sunset": "19:23",
+          "score": 70,
+          "reasons": [
+            "능선 돌풍 주의",
+            "더위 대비 필요",
+            "자외선 매우 강함"
+          ],
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비",
+              "자외선 매우 강함"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
         }
       ]
     },
@@ -994,8 +1217,14 @@
       "bac": "블랙야크 100대 명산+",
       "summary": "암릉과 급경사를 섞어 기술적인 주행을 연습하기 좋은 코스",
       "caution": "비나 결빙 때 암릉 통과를 피하세요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 73,
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "수리산 태을봉·슬기봉 순환 군포·안양",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 68,
       "bestAdvice": "추천",
       "bestReasons": [
         "능선 돌풍 주의",
@@ -1004,49 +1233,270 @@
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 31.7,
-          "tempMinC": 23.5,
-          "apparentMaxC": 36.1,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 94,
-          "windKph": 20.4,
-          "gustKph": 41.8,
+          "date": "2026-08-15",
+          "weatherCode": 53,
+          "weatherLabel": "이슬비",
+          "tempMaxC": 27.4,
+          "tempMinC": 22.8,
+          "apparentMaxC": 32.8,
+          "precipitationMm": 8.4,
+          "precipitationProbabilityPct": 59,
+          "windKph": 14.2,
+          "gustKph": 42.5,
           "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 50,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 41,
+          "reasons": [
+            "비 가능성 높음",
+            "능선 돌풍 주의",
+            "자외선 강함",
+            "젖은 암릉 위험"
+          ],
+          "advice": "짧은 대체 코스 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "젖은 노면 주의",
+              "돌풍 주의",
+              "더위 대비",
+              "암릉·바위 미끄럼"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 30.3,
+          "tempMinC": 23.1,
+          "apparentMaxC": 32.7,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 43,
+          "windKph": 17.8,
+          "gustKph": 50.8,
+          "uvIndex": 6.5,
+          "sunrise": "05:49",
+          "sunset": "19:24",
+          "score": 68,
+          "reasons": [
+            "능선 돌풍 주의",
+            "더위 대비 필요",
+            "자외선 강함"
+          ],
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "samseong-hoam",
+      "name": "삼성산·호암산 연계",
+      "area": "서울·안양",
+      "distanceKm": 14.1,
+      "ascentM": 880,
+      "duration": "4시간 30분~6시간",
+      "difficulty": "중상",
+      "surface": "바위·능선·숲길",
+      "transport": "관악역·석수역 방면",
+      "bac": "블랙야크 100대 명산 해당 없음",
+      "summary": "관악산보다 한적한 바위 능선과 긴 연결 구간을 즐기는 코스",
+      "caution": "바위 표면이 젖으면 속도를 크게 낮춰야 해요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "삼성산·호암산 연계 서울·안양",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 68,
+      "bestAdvice": "추천",
+      "bestReasons": [
+        "능선 돌풍 주의",
+        "체감 폭염",
+        "자외선 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-08-15",
+          "weatherCode": 80,
+          "weatherLabel": "비",
+          "tempMaxC": 29.2,
+          "tempMinC": 22.9,
+          "apparentMaxC": 34.0,
+          "precipitationMm": 9.6,
+          "precipitationProbabilityPct": 65,
+          "windKph": 13.2,
+          "gustKph": 42.8,
+          "uvIndex": 7.8,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 34,
           "reasons": [
             "비 가능성 높음",
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "짧은 대체 코스 권장"
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "젖은 노면 주의",
+              "돌풍 주의",
+              "더위 대비",
+              "암릉·바위 미끄럼"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 30.9,
-          "tempMinC": 22.5,
-          "apparentMaxC": 32.8,
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 30.4,
+          "tempMinC": 23.2,
+          "apparentMaxC": 33.4,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 41,
-          "windKph": 19.0,
-          "gustKph": 43.2,
-          "uvIndex": 7.2,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 73,
+          "precipitationProbabilityPct": 46,
+          "windKph": 15.3,
+          "gustKph": 49.3,
+          "uvIndex": 7.5,
+          "sunrise": "05:48",
+          "sunset": "19:24",
+          "score": 68,
           "reasons": [
             "능선 돌풍 주의",
-            "더위 대비 필요",
+            "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "추천"
+          "advice": "추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "chilbo-ridge",
+      "name": "칠보산 능선 순환",
+      "area": "수원·화성",
+      "distanceKm": 9.6,
+      "ascentM": 430,
+      "duration": "2시간 30분~4시간",
+      "difficulty": "중",
+      "surface": "완만한 능선·흙길",
+      "transport": "호매실·칠보산 입구 방면",
+      "bac": "블랙야크 100대 명산 해당 없음",
+      "summary": "수원 서부에서 짧은 업다운을 반복하기 좋은 숲길",
+      "caution": "갈림길이 많아 GPX 확인이 도움이 돼요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "칠보산 능선 순환 수원·화성",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 66,
+      "bestAdvice": "조건부 추천",
+      "bestReasons": [
+        "능선 돌풍 주의",
+        "체감 폭염",
+        "자외선 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-08-15",
+          "weatherCode": 53,
+          "weatherLabel": "이슬비",
+          "tempMaxC": 29.8,
+          "tempMinC": 23.7,
+          "apparentMaxC": 35.6,
+          "precipitationMm": 7.2,
+          "precipitationProbabilityPct": 59,
+          "windKph": 16.2,
+          "gustKph": 39.6,
+          "uvIndex": 7.5,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 55,
+          "reasons": [
+            "비 가능성 높음",
+            "능선 돌풍 주의",
+            "체감 폭염",
+            "자외선 강함"
+          ],
+          "advice": "조건부 추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "젖은 노면 주의",
+              "돌풍 주의",
+              "체감 폭염"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 31.7,
+          "tempMinC": 24.6,
+          "apparentMaxC": 34.8,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 43,
+          "windKph": 18.3,
+          "gustKph": 51.8,
+          "uvIndex": 6.5,
+          "sunrise": "05:49",
+          "sunset": "19:23",
+          "score": 66,
+          "reasons": [
+            "능선 돌풍 주의",
+            "체감 폭염",
+            "자외선 강함"
+          ],
+          "advice": "조건부 추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
         }
       ]
     },
@@ -1063,9 +1513,15 @@
       "bac": "블랙야크 100대 명산 해당 없음",
       "summary": "날씨가 애매할 때 고산 코스 대신 선택하기 좋은 낮은 코스",
       "caution": "호숫가 노출 구간은 한여름 일사량과 맞바람 영향을 받아요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 70,
-      "bestAdvice": "추천",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "왕송호수·오봉산 연계 의왕",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 66,
+      "bestAdvice": "조건부 추천",
       "bestReasons": [
         "능선 돌풍 주의",
         "체감 폭염",
@@ -1073,49 +1529,72 @@
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 51,
+          "date": "2026-08-15",
+          "weatherCode": 53,
           "weatherLabel": "이슬비",
-          "tempMaxC": 32.9,
-          "tempMinC": 24.8,
-          "apparentMaxC": 38.6,
-          "precipitationMm": 0.1,
-          "precipitationProbabilityPct": 94,
-          "windKph": 21.5,
-          "gustKph": 41.8,
+          "tempMaxC": 28.5,
+          "tempMinC": 23.9,
+          "apparentMaxC": 34.5,
+          "precipitationMm": 8.4,
+          "precipitationProbabilityPct": 59,
+          "windKph": 14.2,
+          "gustKph": 42.5,
           "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 42,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 57,
           "reasons": [
             "비 가능성 높음",
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "짧은 대체 코스 권장"
+          "advice": "조건부 추천",
+          "safety": {
+            "level": "경계",
+            "levelCode": 2,
+            "flags": [
+              "젖은 노면 주의",
+              "돌풍 주의",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 32.0,
-          "tempMinC": 23.8,
-          "apparentMaxC": 34.7,
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 31.4,
+          "tempMinC": 24.2,
+          "apparentMaxC": 34.3,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 41,
-          "windKph": 19.9,
-          "gustKph": 43.2,
-          "uvIndex": 7.2,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 70,
+          "precipitationProbabilityPct": 43,
+          "windKph": 17.8,
+          "gustKph": 50.8,
+          "uvIndex": 6.5,
+          "sunrise": "05:49",
+          "sunset": "19:24",
+          "score": 66,
           "reasons": [
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "추천"
+          "advice": "조건부 추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:24",
+            "officialCheckRequired": true
+          }
         }
       ]
     },
@@ -1132,8 +1611,14 @@
       "bac": "광교산 시루봉은 블랙야크 100대 명산",
       "summary": "긴 오르내림과 누적 상승을 훈련하기 좋은 종주 코스",
       "caution": "우천·폭염·강풍 예보에는 짧은 코스로 줄이는 편이 안전해요.",
-      "bestDay": "2026-08-09",
-      "bestScore": 64,
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "바라산·백운산·광교산 연계 의왕·수원",
+      "verificationDate": null,
+      "bestDay": "2026-08-16",
+      "bestScore": 57,
       "bestAdvice": "조건부 추천",
       "bestReasons": [
         "능선 돌풍 주의",
@@ -1143,56 +1628,80 @@
       ],
       "weather": [
         {
-          "date": "2026-08-08",
-          "weatherCode": 2,
-          "weatherLabel": "대체로 맑음",
-          "tempMaxC": 32.2,
-          "tempMinC": 24.4,
-          "apparentMaxC": 37.0,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 94,
-          "windKph": 17.6,
-          "gustKph": 42.5,
+          "date": "2026-08-15",
+          "weatherCode": 95,
+          "weatherLabel": "뇌우",
+          "tempMaxC": 31.5,
+          "tempMinC": 23.2,
+          "apparentMaxC": 35.9,
+          "precipitationMm": 15.0,
+          "precipitationProbabilityPct": 59,
+          "windKph": 13.2,
+          "gustKph": 41.4,
           "uvIndex": 7.5,
-          "sunrise": "05:42",
-          "sunset": "19:33",
-          "score": 36,
+          "sunrise": "05:48",
+          "sunset": "19:25",
+          "score": 0,
           "reasons": [
-            "비 가능성 높음",
+            "뇌우 가능성",
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함"
           ],
-          "advice": "짧은 대체 코스 권장"
+          "advice": "산행 보류 권장",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "뇌우 가능성",
+              "강수 부담 큼",
+              "돌풍 주의",
+              "체감 폭염",
+              "암릉·바위 미끄럼"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:25",
+            "officialCheckRequired": true
+          }
         },
         {
-          "date": "2026-08-09",
-          "weatherCode": 51,
-          "weatherLabel": "이슬비",
-          "tempMaxC": 31.1,
-          "tempMinC": 23.2,
-          "apparentMaxC": 33.7,
-          "precipitationMm": 0.1,
-          "precipitationProbabilityPct": 41,
-          "windKph": 18.1,
-          "gustKph": 42.5,
-          "uvIndex": 7.2,
-          "sunrise": "05:43",
-          "sunset": "19:32",
-          "score": 64,
+          "date": "2026-08-16",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 30.7,
+          "tempMinC": 23.3,
+          "apparentMaxC": 34.0,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 43,
+          "windKph": 15.7,
+          "gustKph": 48.2,
+          "uvIndex": 7.5,
+          "sunrise": "05:48",
+          "sunset": "19:23",
+          "score": 57,
           "reasons": [
             "능선 돌풍 주의",
             "체감 폭염",
             "자외선 강함",
             "장거리 부담 증가"
           ],
-          "advice": "조건부 추천"
+          "advice": "조건부 추천",
+          "safety": {
+            "level": "위험",
+            "levelCode": 3,
+            "flags": [
+              "능선 강풍 위험",
+              "더위 대비"
+            ],
+            "recommendedStart": "05:30",
+            "sunset": "19:23",
+            "officialCheckRequired": true
+          }
         }
       ]
     }
   ],
   "warnings": [
-    "추천 상위 코스에도 비 가능성이 있어 출발 직전 레이더와 통제 정보를 다시 확인하세요.",
     "체감온도가 높아 오전 이른 출발, 충분한 물과 전해질 준비가 필요해요.",
     "능선 돌풍 가능성이 있어 암릉·노출 구간 코스는 피하는 편이 좋아요.",
     "산악 날씨는 지형에 따라 달라질 수 있으며, 입산 통제·산불·낙뢰 특보는 출발 직전에 별도 확인하세요."
