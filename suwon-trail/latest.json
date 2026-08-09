@@ -1,7 +1,7 @@
 {
-  "versionCode": 27,
-  "versionName": "0.11.0",
-  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.11.0.apk",
-  "sha256": "c4457335963c24f0f51483254534385f99af4c2e59be53c75aeb7ea502378c27",
-  "notes": "12주 트레일 체력모델·50K 준비도·개인 예상완주시간·주간 훈련제안과 시간대별 위험 타임라인을 추가했어요. 추천 코스 GPX를 직접 등록하거나 실제 Samsung Health GPS 기록을 오프라인 코스로 저장할 수 있고, 오프라인 경로·고저도·남은 거리/상승·ETA와 75m 코스 이탈 진동 경고를 제공합니다."
+  "versionCode": 29,
+  "versionName": "0.11.2",
+  "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.11.2.apk",
+  "sha256": "f4440f06ec6d5b56d96afea3ccbc73882596930d3670fd5c7358ad1fb02895ce",
+  "notes": "일요일 탭 전환 시 화면이 비는 문제를 수정했고, 50K 준비도에 현재값·기준값·획득점수·달성률·강점·우선 보완 항목·최근 훈련 부하를 자세히 보여주는 상세 분석을 추가했어요."
 }
