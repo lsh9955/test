@@ -1,0 +1,61 @@
+name: Publish Suwon Trail v0.13.1
+
+on:
+  push:
+    branches: ["master"]
+    paths:
+      - ".github/workflows/publish-suwon-v0131.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public update branch
+        uses: actions/checkout@v6
+        with:
+          ref: suwon-trail-updates
+          fetch-depth: 0
+
+      - name: Download and verify v0.13.1 release
+        env:
+          ARTIFACT_URL: "https://sdmntprkoreacentral.oaiusercontent.com/files/00000000-c764-8206-a341-6a198298f783/raw?se=2026-08-23T11%3A27%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=38eb04c4-b258-56ed-b168-8b55e270cfe4&skoid=0b778285-7b0b-4cdc-ac3b-fb93e8c3686f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-08-22T23%3A48%3A03Z&ske=2026-08-23T23%3A48%3A03Z&sks=b&skv=2026-02-06&sig=pnYT71giviXRDlwnN23lx4teW%2Bm/6%2B4Fvge7UUaCA5c%3D"
+          EXPECTED_SHA256: "1352795b1f69e5d5090e8155a99928177f9bcab70e79384d39108b65980c7674"
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 "$ARTIFACT_URL" --output /tmp/suwon-v0131.zip
+          rm -rf /tmp/suwon-v0131
+          mkdir -p /tmp/suwon-v0131
+          unzip -q /tmp/suwon-v0131.zip -d /tmp/suwon-v0131
+          APK=/tmp/suwon-v0131/app/build/outputs/apk/release/app-release.apk
+          test -s "$APK"
+          echo "${EXPECTED_SHA256}  ${APK}" | sha256sum -c -
+
+          mkdir -p suwon-trail
+          cp "$APK" suwon-trail/suwon-trail-0.13.1-v35.apk
+          cat > suwon-trail/latest.json <<'JSON'
+          {
+            "versionCode": 35,
+            "versionName": "0.13.1 · Garmin 전송 안정화",
+            "apkUrl": "https://raw.githubusercontent.com/lsh9955/test/suwon-trail-updates/suwon-trail/suwon-trail-0.13.1-v35.apk",
+            "sha256": "1352795b1f69e5d5090e8155a99928177f9bcab70e79384d39108b65980c7674",
+            "notes": "Garmin GPX 전송이 콜백 누락으로 0/N에서 멈추던 문제를 수정했습니다. 전송 성공 콜백을 기다리지 않고 Garmin mailbox에 안전한 간격으로 순서대로 전송하며, 명시적인 실패나 연결 끊김은 즉시 중단합니다. 앱 안에서 버전을 눌러 업데이트할 수 있습니다."
+          }
+          JSON
+          printf '%s  %s\n' "${EXPECTED_SHA256}" "suwon-trail-0.13.1-v35.apk" > suwon-trail/SHA256SUMS
+
+      - name: Publish public in-app update
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add suwon-trail/suwon-trail-0.13.1-v35.apk suwon-trail/latest.json suwon-trail/SHA256SUMS
+          if git diff --cached --quiet; then
+            echo "No update changes to publish."
+            exit 0
+          fi
+          git commit -m "Publish Suwon Trail v0.13.1 (v35)"
+          git push origin HEAD:suwon-trail-updates
