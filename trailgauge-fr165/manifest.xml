@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application
+        id="B0F4D8D1E6A84A0B9C7F4CF41D3D6A21"
+        type="datafield"
+        name="@Strings.AppName"
+        entry="TrailGaugeApp"
+        launcherIcon="@Drawables.LauncherIcon"
+        minSdkVersion="5.2.0">
+        <iq:products>
+            <iq:product id="fr165"/>
+            <iq:product id="fr165m"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="Positioning"/>
+            <iq:uses-permission id="UserProfile"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
