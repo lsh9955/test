@@ -1,9 +1,6 @@
 name: TrailGauge FR165 Build
 
 on:
-  push:
-    branches:
-      - trailgauge-fr165-build
   pull_request:
     branches:
       - master
@@ -13,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout PR
         uses: actions/checkout@v4
 
       - name: Generate Connect IQ developer key
