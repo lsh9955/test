@@ -1,0 +1,35 @@
+name: TrailGauge FR165 Build
+
+on:
+  push:
+    branches:
+      - trailgauge-fr165-build
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Connect IQ developer key
+        run: |
+          openssl genrsa -out developer_key.pem 4096
+          openssl pkcs8 -topk8 -inform PEM -outform DER -in developer_key.pem -out developer_key.der -nocrypt
+
+      - name: Build for Forerunner 165
+        run: |
+          mkdir -p trailgauge-fr165/bin
+          docker run --rm \
+            -v "$PWD:/workspace" \
+            -w /workspace/trailgauge-fr165 \
+            ghcr.io/blackshadev/garmin-connectiq-tools:9.1.0 \
+            -c 'echo "Available FR165 device definitions:"; ls /root/.Garmin/ConnectIQ/Devices | grep -i fr165 || true; java -jar /connectiq/bin/monkeybrains.jar -f monkey.jungle -d fr165 -o bin/TrailGauge_FR165.prg -y /workspace/developer_key.der -w -l 2'
+
+      - name: Upload PRG
+        uses: actions/upload-artifact@v4
+        with:
+          name: TrailGauge_FR165
+          path: trailgauge-fr165/bin/TrailGauge_FR165.prg
+          if-no-files-found: error
