@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-08-31T07:55:20+09:00",
+  "generatedAt": "2026-09-07T07:19:03+09:00",
   "refreshSchedule": "매주 월요일 05:40 KST 자동 갱신",
   "source": {
     "name": "Open-Meteo Forecast API",
@@ -13,8 +13,8 @@
     "note": "앱의 안전 경고는 예보값 기반 보조 정보입니다. 기상특보·산불·입산통제는 출발 직전에 공식 정보를 다시 확인하세요."
   },
   "weekend": {
-    "saturday": "2026-09-05",
-    "sunday": "2026-09-06"
+    "saturday": "2026-09-12",
+    "sunday": "2026-09-13"
   },
   "recommendations": [
     {
@@ -36,33 +36,35 @@
       "gpxUrl": null,
       "mapQuery": "광교산 형제봉 왕복 수원·광교",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.6,
-          "tempMinC": 15.7,
-          "apparentMaxC": 26.1,
+          "tempMaxC": 23.4,
+          "tempMinC": 16.6,
+          "apparentMaxC": 23.7,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 12.4,
-          "gustKph": 28.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:55",
+          "precipitationProbabilityPct": 14,
+          "windKph": 6.6,
+          "gustKph": 21.2,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
+            "운동하기 좋은 기온",
             "자외선 강함"
           ],
           "advice": "적극 추천",
@@ -73,25 +75,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:55",
+            "sunset": "18:45",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.0,
-          "tempMinC": 16.8,
-          "apparentMaxC": 25.1,
+          "tempMaxC": 24.6,
+          "tempMinC": 14.9,
+          "apparentMaxC": 24.6,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 13.3,
-          "gustKph": 34.2,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
+          "precipitationProbabilityPct": 21,
+          "windKph": 6.0,
+          "gustKph": 19.1,
+          "uvIndex": 6.5,
+          "sunrise": "06:11",
+          "sunset": "18:43",
+          "score": 98,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -105,7 +107,7 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
@@ -113,302 +115,14 @@
       "rank": 1,
       "hourly": [
         {
-          "time": "2026-09-05T05:00",
-          "tempC": 15.7,
-          "apparentTempC": 16.0,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 6.7,
-          "gustKph": 18.7,
-          "humidityPct": 88,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T06:00",
-          "tempC": 15.9,
-          "apparentTempC": 16.2,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 6.4,
-          "gustKph": 18.0,
-          "humidityPct": 87,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T07:00",
-          "tempC": 17.1,
-          "apparentTempC": 17.5,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 6.4,
-          "gustKph": 18.0,
-          "humidityPct": 83,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T08:00",
-          "tempC": 18.8,
-          "apparentTempC": 19.4,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 6.5,
-          "gustKph": 18.7,
-          "humidityPct": 77,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T09:00",
-          "tempC": 20.5,
-          "apparentTempC": 21.1,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 7.0,
-          "gustKph": 20.2,
-          "humidityPct": 71,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T10:00",
-          "tempC": 22.0,
-          "apparentTempC": 22.9,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 8.2,
-          "gustKph": 22.3,
-          "humidityPct": 65,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T11:00",
-          "tempC": 23.5,
-          "apparentTempC": 24.8,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 9.6,
-          "gustKph": 24.8,
-          "humidityPct": 59,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T12:00",
-          "tempC": 24.6,
-          "apparentTempC": 25.9,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 10.4,
-          "gustKph": 27.0,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T13:00",
-          "tempC": 25.3,
-          "apparentTempC": 26.1,
-          "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 10.1,
-          "gustKph": 27.7,
-          "humidityPct": 53,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T14:00",
-          "tempC": 25.6,
-          "apparentTempC": 26.1,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.4,
-          "gustKph": 28.1,
-          "humidityPct": 52,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T15:00",
-          "tempC": 25.6,
-          "apparentTempC": 26.0,
-          "precipitationProbabilityPct": 4,
+          "time": "2026-09-12T05:00",
+          "tempC": 16.6,
+          "apparentTempC": 17.6,
+          "precipitationProbabilityPct": 7,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 8.7,
-          "gustKph": 27.7,
-          "humidityPct": 52,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T16:00",
-          "tempC": 25.3,
-          "apparentTempC": 25.8,
-          "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 8.4,
-          "gustKph": 26.6,
-          "humidityPct": 54,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T17:00",
-          "tempC": 24.7,
-          "apparentTempC": 25.4,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 8.4,
-          "gustKph": 25.2,
-          "humidityPct": 57,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T18:00",
-          "tempC": 23.9,
-          "apparentTempC": 24.7,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 8.6,
-          "gustKph": 24.5,
-          "humidityPct": 61,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T19:00",
-          "tempC": 22.7,
-          "apparentTempC": 22.7,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 11.6,
-          "gustKph": 28.4,
-          "humidityPct": 62,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T20:00",
-          "tempC": 21.6,
-          "apparentTempC": 21.5,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 12.2,
-          "gustKph": 28.1,
-          "humidityPct": 67,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T05:00",
-          "tempC": 17.4,
-          "apparentTempC": 17.8,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 8.1,
-          "gustKph": 27.0,
+          "windKph": 2.4,
+          "gustKph": 7.6,
           "humidityPct": 85,
           "risk": {
             "levelCode": 0,
@@ -419,15 +133,15 @@
           }
         },
         {
-          "time": "2026-09-06T06:00",
-          "tempC": 18.2,
-          "apparentTempC": 18.6,
-          "precipitationProbabilityPct": 4,
+          "time": "2026-09-12T06:00",
+          "tempC": 16.7,
+          "apparentTempC": 17.6,
+          "precipitationProbabilityPct": 8,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 8.8,
-          "gustKph": 26.6,
-          "humidityPct": 82,
+          "windKph": 2.7,
+          "gustKph": 7.6,
+          "humidityPct": 85,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -437,14 +151,284 @@
           }
         },
         {
-          "time": "2026-09-06T07:00",
-          "tempC": 19.0,
-          "apparentTempC": 19.4,
+          "time": "2026-09-12T07:00",
+          "tempC": 17.2,
+          "apparentTempC": 18.1,
+          "precipitationProbabilityPct": 7,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 2.6,
+          "gustKph": 7.2,
+          "humidityPct": 81,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T08:00",
+          "tempC": 18.1,
+          "apparentTempC": 19.0,
+          "precipitationProbabilityPct": 5,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 2.2,
+          "gustKph": 7.2,
+          "humidityPct": 75,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T09:00",
+          "tempC": 19.2,
+          "apparentTempC": 19.9,
           "precipitationProbabilityPct": 4,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 9.5,
-          "gustKph": 26.3,
+          "windKph": 1.9,
+          "gustKph": 7.9,
+          "humidityPct": 68,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T10:00",
+          "tempC": 20.4,
+          "apparentTempC": 20.8,
+          "precipitationProbabilityPct": 5,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 2.5,
+          "gustKph": 10.8,
+          "humidityPct": 60,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T11:00",
+          "tempC": 21.8,
+          "apparentTempC": 21.9,
+          "precipitationProbabilityPct": 8,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 3.8,
+          "gustKph": 14.8,
+          "humidityPct": 53,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T12:00",
+          "tempC": 22.8,
+          "apparentTempC": 23.2,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.0,
+          "gustKph": 18.0,
+          "humidityPct": 48,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T13:00",
+          "tempC": 23.2,
+          "apparentTempC": 23.7,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.8,
+          "gustKph": 19.8,
+          "humidityPct": 46,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T14:00",
+          "tempC": 23.4,
+          "apparentTempC": 23.6,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.4,
+          "gustKph": 20.9,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T15:00",
+          "tempC": 23.2,
+          "apparentTempC": 23.0,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.6,
+          "gustKph": 21.2,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T16:00",
+          "tempC": 22.8,
+          "apparentTempC": 22.1,
+          "precipitationProbabilityPct": 11,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.5,
+          "gustKph": 21.2,
+          "humidityPct": 47,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T17:00",
+          "tempC": 22.1,
+          "apparentTempC": 21.5,
+          "precipitationProbabilityPct": 13,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.3,
+          "gustKph": 20.9,
+          "humidityPct": 50,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T18:00",
+          "tempC": 21.3,
+          "apparentTempC": 20.9,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 5.4,
+          "gustKph": 19.8,
+          "humidityPct": 53,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T19:00",
+          "tempC": 20.3,
+          "apparentTempC": 20.3,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 0,
+          "windKph": 2.2,
+          "gustKph": 15.1,
+          "humidityPct": 56,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T20:00",
+          "tempC": 19.3,
+          "apparentTempC": 19.5,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 0,
+          "windKph": 1.1,
+          "gustKph": 13.3,
+          "humidityPct": 60,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T05:00",
+          "tempC": 15.5,
+          "apparentTempC": 15.5,
+          "precipitationProbabilityPct": 12,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 3.8,
+          "gustKph": 7.2,
+          "humidityPct": 79,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T06:00",
+          "tempC": 16.2,
+          "apparentTempC": 16.4,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.2,
+          "gustKph": 8.3,
           "humidityPct": 80,
           "risk": {
             "levelCode": 0,
@@ -455,15 +439,15 @@
           }
         },
         {
-          "time": "2026-09-06T08:00",
-          "tempC": 19.8,
-          "apparentTempC": 20.2,
-          "precipitationProbabilityPct": 4,
+          "time": "2026-09-13T07:00",
+          "tempC": 16.9,
+          "apparentTempC": 17.4,
+          "precipitationProbabilityPct": 15,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 10.3,
-          "gustKph": 26.3,
-          "humidityPct": 77,
+          "windKph": 4.4,
+          "gustKph": 9.4,
+          "humidityPct": 80,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -473,15 +457,15 @@
           }
         },
         {
-          "time": "2026-09-06T09:00",
-          "tempC": 20.6,
-          "apparentTempC": 21.0,
-          "precipitationProbabilityPct": 4,
+          "time": "2026-09-13T08:00",
+          "tempC": 17.8,
+          "apparentTempC": 18.4,
+          "precipitationProbabilityPct": 17,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 10.8,
-          "gustKph": 26.6,
-          "humidityPct": 74,
+          "windKph": 4.6,
+          "gustKph": 10.8,
+          "humidityPct": 79,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -491,14 +475,32 @@
           }
         },
         {
-          "time": "2026-09-06T10:00",
-          "tempC": 21.4,
-          "apparentTempC": 21.7,
-          "precipitationProbabilityPct": 5,
+          "time": "2026-09-13T09:00",
+          "tempC": 18.6,
+          "apparentTempC": 19.4,
+          "precipitationProbabilityPct": 18,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 11.2,
-          "gustKph": 27.4,
+          "windKph": 4.2,
+          "gustKph": 11.9,
+          "humidityPct": 76,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T10:00",
+          "tempC": 19.6,
+          "apparentTempC": 20.5,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 3.3,
+          "gustKph": 13.0,
           "humidityPct": 71,
           "risk": {
             "levelCode": 0,
@@ -509,542 +511,14 @@
           }
         },
         {
-          "time": "2026-09-06T11:00",
-          "tempC": 22.4,
-          "apparentTempC": 22.7,
-          "precipitationProbabilityPct": 6,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 11.6,
-          "gustKph": 28.8,
-          "humidityPct": 66,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T12:00",
-          "tempC": 23.4,
-          "apparentTempC": 24.0,
-          "precipitationProbabilityPct": 7,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 12.0,
-          "gustKph": 30.6,
-          "humidityPct": 62,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T13:00",
-          "tempC": 24.2,
-          "apparentTempC": 24.8,
-          "precipitationProbabilityPct": 8,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 12.4,
-          "gustKph": 32.0,
-          "humidityPct": 58,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T14:00",
-          "tempC": 24.8,
-          "apparentTempC": 25.1,
-          "precipitationProbabilityPct": 9,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 12.6,
-          "gustKph": 33.5,
-          "humidityPct": 56,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T15:00",
-          "tempC": 25.0,
-          "apparentTempC": 24.9,
-          "precipitationProbabilityPct": 10,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 12.7,
-          "gustKph": 34.2,
-          "humidityPct": 54,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T16:00",
-          "tempC": 24.6,
-          "apparentTempC": 24.3,
-          "precipitationProbabilityPct": 10,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 12.7,
-          "gustKph": 34.2,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T17:00",
-          "tempC": 23.7,
-          "apparentTempC": 23.3,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 12.7,
-          "gustKph": 34.2,
-          "humidityPct": 56,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T18:00",
-          "tempC": 22.6,
-          "apparentTempC": 22.0,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 12.7,
-          "gustKph": 33.5,
-          "humidityPct": 59,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T19:00",
-          "tempC": 21.3,
-          "apparentTempC": 20.6,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 12.9,
-          "gustKph": 32.8,
-          "humidityPct": 62,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T20:00",
-          "tempC": 20.1,
-          "apparentTempC": 19.2,
-          "precipitationProbabilityPct": 12,
+          "time": "2026-09-13T11:00",
+          "tempC": 20.9,
+          "apparentTempC": 21.8,
+          "precipitationProbabilityPct": 19,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 13.3,
-          "gustKph": 32.0,
-          "humidityPct": 65,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "chilbo-ridge",
-      "name": "칠보산 능선 순환",
-      "area": "수원·화성",
-      "distanceKm": 9.6,
-      "ascentM": 430,
-      "duration": "2시간 30분~4시간",
-      "difficulty": "중",
-      "surface": "완만한 능선·흙길",
-      "transport": "호매실·칠보산 입구 방면",
-      "bac": "블랙야크 100대 명산 해당 없음",
-      "summary": "수원 서부에서 짧은 업다운을 반복하기 좋은 숲길",
-      "caution": "갈림길이 많아 GPX 확인이 도움이 돼요.",
-      "profileQuality": "estimated",
-      "profileQualityLabel": "고저도 추정 · GPX 미검증",
-      "gpxVerified": false,
-      "gpxUrl": null,
-      "mapQuery": "칠보산 능선 순환 수원·화성",
-      "verificationDate": null,
-      "bestDay": "2026-09-05",
-      "bestScore": 100,
-      "bestAdvice": "적극 추천",
-      "bestReasons": [
-        "강수 부담 적음",
-        "바람 무난",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-09-05",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 27.4,
-          "tempMinC": 17.2,
-          "apparentMaxC": 28.5,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 10.6,
-          "gustKph": 26.6,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:56",
-          "score": 100,
-          "reasons": [
-            "강수 부담 적음",
-            "바람 무난",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "양호",
-            "levelCode": 0,
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:56",
-            "officialCheckRequired": true
-          }
-        },
-        {
-          "date": "2026-09-06",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 26.5,
-          "tempMinC": 18.4,
-          "apparentMaxC": 28.2,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 15.7,
-          "gustKph": 32.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
-          "reasons": [
-            "강수 부담 적음",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "양호",
-            "levelCode": 0,
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:54",
-            "officialCheckRequired": true
-          }
-        }
-      ],
-      "rank": 2,
-      "hourly": [
-        {
-          "time": "2026-09-05T05:00",
-          "tempC": 17.2,
-          "apparentTempC": 18.4,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 3.0,
-          "gustKph": 12.6,
-          "humidityPct": 87,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T06:00",
-          "tempC": 17.4,
-          "apparentTempC": 18.7,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 2.3,
-          "gustKph": 10.4,
-          "humidityPct": 86,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T07:00",
-          "tempC": 18.7,
-          "apparentTempC": 20.1,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 2.6,
-          "gustKph": 10.4,
-          "humidityPct": 81,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T08:00",
-          "tempC": 20.7,
-          "apparentTempC": 22.2,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 3.7,
-          "gustKph": 11.9,
-          "humidityPct": 75,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T09:00",
-          "tempC": 22.5,
-          "apparentTempC": 24.0,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 5.2,
-          "gustKph": 14.0,
-          "humidityPct": 69,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T10:00",
-          "tempC": 23.9,
-          "apparentTempC": 25.6,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 7.1,
-          "gustKph": 17.3,
-          "humidityPct": 63,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T11:00",
-          "tempC": 25.2,
-          "apparentTempC": 27.3,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 9.0,
-          "gustKph": 21.2,
-          "humidityPct": 58,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T12:00",
-          "tempC": 26.2,
-          "apparentTempC": 28.2,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 10.4,
-          "gustKph": 24.1,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T13:00",
-          "tempC": 26.9,
-          "apparentTempC": 28.4,
-          "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 10.3,
-          "gustKph": 25.9,
-          "humidityPct": 52,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T14:00",
-          "tempC": 27.3,
-          "apparentTempC": 28.4,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.7,
-          "gustKph": 26.6,
-          "humidityPct": 51,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T15:00",
-          "tempC": 27.4,
-          "apparentTempC": 28.3,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 8.7,
-          "gustKph": 26.6,
-          "humidityPct": 51,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T16:00",
-          "tempC": 27.1,
-          "apparentTempC": 28.5,
-          "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 7.2,
-          "gustKph": 24.8,
-          "humidityPct": 54,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T17:00",
-          "tempC": 26.4,
-          "apparentTempC": 28.3,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 6.4,
-          "gustKph": 22.0,
-          "humidityPct": 60,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T18:00",
-          "tempC": 25.7,
-          "apparentTempC": 27.9,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 6.2,
-          "gustKph": 19.8,
-          "humidityPct": 65,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T19:00",
-          "tempC": 24.6,
-          "apparentTempC": 25.8,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.3,
-          "gustKph": 22.3,
+          "windKph": 1.9,
+          "gustKph": 14.4,
           "humidityPct": 64,
           "risk": {
             "levelCode": 0,
@@ -1055,15 +529,15 @@
           }
         },
         {
-          "time": "2026-09-05T20:00",
-          "tempC": 23.6,
-          "apparentTempC": 24.8,
-          "precipitationProbabilityPct": 0,
+          "time": "2026-09-13T12:00",
+          "tempC": 22.2,
+          "apparentTempC": 22.9,
+          "precipitationProbabilityPct": 19,
           "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.6,
-          "gustKph": 20.9,
-          "humidityPct": 70,
+          "weatherCode": 2,
+          "windKph": 1.9,
+          "gustKph": 15.5,
+          "humidityPct": 57,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1073,15 +547,15 @@
           }
         },
         {
-          "time": "2026-09-06T05:00",
-          "tempC": 19.2,
-          "apparentTempC": 20.2,
-          "precipitationProbabilityPct": 4,
+          "time": "2026-09-13T13:00",
+          "tempC": 23.4,
+          "apparentTempC": 24.1,
+          "precipitationProbabilityPct": 19,
           "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 7.4,
-          "gustKph": 19.8,
-          "humidityPct": 83,
+          "weatherCode": 2,
+          "windKph": 3.4,
+          "gustKph": 16.6,
+          "humidityPct": 51,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1091,141 +565,15 @@
           }
         },
         {
-          "time": "2026-09-06T06:00",
-          "tempC": 19.9,
-          "apparentTempC": 20.9,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 8.2,
-          "gustKph": 20.2,
-          "humidityPct": 81,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T07:00",
-          "tempC": 20.8,
-          "apparentTempC": 21.9,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 9.1,
-          "gustKph": 20.9,
-          "humidityPct": 78,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T08:00",
-          "tempC": 21.7,
-          "apparentTempC": 22.8,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 9.8,
-          "gustKph": 21.2,
-          "humidityPct": 75,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T09:00",
-          "tempC": 22.5,
-          "apparentTempC": 23.6,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.2,
-          "gustKph": 22.3,
-          "humidityPct": 73,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T10:00",
-          "tempC": 23.3,
-          "apparentTempC": 24.4,
-          "precipitationProbabilityPct": 5,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.3,
-          "gustKph": 23.8,
-          "humidityPct": 70,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T11:00",
+          "time": "2026-09-13T14:00",
           "tempC": 24.2,
-          "apparentTempC": 25.6,
-          "precipitationProbabilityPct": 6,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 10.0,
-          "gustKph": 25.6,
-          "humidityPct": 67,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T12:00",
-          "tempC": 25.1,
-          "apparentTempC": 26.9,
-          "precipitationProbabilityPct": 7,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.8,
-          "gustKph": 27.4,
-          "humidityPct": 63,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T13:00",
-          "tempC": 25.9,
-          "apparentTempC": 27.8,
-          "precipitationProbabilityPct": 8,
+          "apparentTempC": 24.6,
+          "precipitationProbabilityPct": 18,
           "precipitationMm": 0.0,
           "weatherCode": 1,
-          "windKph": 9.7,
-          "gustKph": 29.5,
-          "humidityPct": 60,
+          "windKph": 4.9,
+          "gustKph": 17.6,
+          "humidityPct": 47,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1235,15 +583,15 @@
           }
         },
         {
-          "time": "2026-09-06T14:00",
-          "tempC": 26.4,
-          "apparentTempC": 28.2,
-          "precipitationProbabilityPct": 9,
+          "time": "2026-09-13T15:00",
+          "tempC": 24.6,
+          "apparentTempC": 24.5,
+          "precipitationProbabilityPct": 18,
           "precipitationMm": 0.0,
           "weatherCode": 1,
-          "windKph": 9.5,
-          "gustKph": 31.0,
-          "humidityPct": 58,
+          "windKph": 5.8,
+          "gustKph": 18.4,
+          "humidityPct": 46,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1253,69 +601,15 @@
           }
         },
         {
-          "time": "2026-09-06T15:00",
-          "tempC": 26.5,
-          "apparentTempC": 27.8,
-          "precipitationProbabilityPct": 10,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 9.9,
-          "gustKph": 32.0,
-          "humidityPct": 57,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T16:00",
-          "tempC": 26.1,
-          "apparentTempC": 26.9,
-          "precipitationProbabilityPct": 10,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 10.7,
-          "gustKph": 32.4,
-          "humidityPct": 57,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T17:00",
-          "tempC": 25.4,
-          "apparentTempC": 25.8,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 11.9,
-          "gustKph": 32.4,
-          "humidityPct": 57,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T18:00",
+          "time": "2026-09-13T16:00",
           "tempC": 24.3,
-          "apparentTempC": 24.2,
-          "precipitationProbabilityPct": 11,
+          "apparentTempC": 24.0,
+          "precipitationProbabilityPct": 18,
           "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 13.3,
-          "gustKph": 32.0,
-          "humidityPct": 59,
+          "weatherCode": 1,
+          "windKph": 6.0,
+          "gustKph": 18.7,
+          "humidityPct": 47,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1325,15 +619,15 @@
           }
         },
         {
-          "time": "2026-09-06T19:00",
-          "tempC": 23.1,
-          "apparentTempC": 22.6,
-          "precipitationProbabilityPct": 11,
+          "time": "2026-09-13T17:00",
+          "tempC": 23.4,
+          "apparentTempC": 23.3,
+          "precipitationProbabilityPct": 18,
           "precipitationMm": 0.0,
           "weatherCode": 2,
-          "windKph": 14.5,
-          "gustKph": 31.3,
-          "humidityPct": 60,
+          "windKph": 5.9,
+          "gustKph": 19.1,
+          "humidityPct": 50,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1343,15 +637,51 @@
           }
         },
         {
-          "time": "2026-09-06T20:00",
-          "tempC": 22.0,
-          "apparentTempC": 21.2,
-          "precipitationProbabilityPct": 12,
+          "time": "2026-09-13T18:00",
+          "tempC": 22.3,
+          "apparentTempC": 22.4,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.5,
+          "gustKph": 19.1,
+          "humidityPct": 55,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T19:00",
+          "tempC": 21.0,
+          "apparentTempC": 21.3,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.3,
+          "gustKph": 18.7,
+          "humidityPct": 62,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T20:00",
+          "tempC": 19.9,
+          "apparentTempC": 20.3,
+          "precipitationProbabilityPct": 18,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 15.5,
-          "gustKph": 31.0,
-          "humidityPct": 62,
+          "windKph": 5.1,
+          "gustKph": 18.4,
+          "humidityPct": 68,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1381,30 +711,64 @@
       "gpxUrl": null,
       "mapQuery": "석성산·할미산성 순환 용인",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
+          "weatherCode": 51,
+          "weatherLabel": "이슬비",
+          "tempMaxC": 23.1,
+          "tempMinC": 16.4,
+          "apparentMaxC": 22.9,
+          "precipitationMm": 0.3,
+          "precipitationProbabilityPct": 15,
+          "windKph": 5.5,
+          "gustKph": 18.0,
+          "uvIndex": 6.4,
+          "sunrise": "06:10",
+          "sunset": "18:44",
+          "score": 100,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "운동하기 좋은 기온",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:44",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.7,
-          "tempMinC": 15.9,
-          "apparentMaxC": 26.5,
+          "tempMaxC": 25.0,
+          "tempMinC": 15.3,
+          "apparentMaxC": 24.7,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 13.9,
-          "gustKph": 33.1,
-          "uvIndex": 6.8,
-          "sunrise": "06:04",
-          "sunset": "18:55",
-          "score": 100,
+          "precipitationProbabilityPct": 23,
+          "windKph": 9.2,
+          "gustKph": 24.5,
+          "uvIndex": 6.5,
+          "sunrise": "06:11",
+          "sunset": "18:43",
+          "score": 97,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -1418,163 +782,23 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:55",
-            "officialCheckRequired": true
-          }
-        },
-        {
-          "date": "2026-09-06",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 25.5,
-          "tempMinC": 17.1,
-          "apparentMaxC": 25.9,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 15.7,
-          "gustKph": 38.5,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:53",
-          "score": 98,
-          "reasons": [
-            "강수 부담 적음",
-            "능선 돌풍 주의",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "경계",
-            "levelCode": 2,
-            "flags": [
-              "돌풍 주의"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:53",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
       ],
-      "rank": 3,
+      "rank": 2,
       "hourly": [
         {
-          "time": "2026-09-05T05:00",
-          "tempC": 15.9,
-          "apparentTempC": 15.9,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 9.0,
-          "gustKph": 20.9,
-          "humidityPct": 89,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T06:00",
-          "tempC": 16.1,
-          "apparentTempC": 16.1,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 8.9,
-          "gustKph": 21.6,
-          "humidityPct": 87,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T07:00",
-          "tempC": 17.3,
-          "apparentTempC": 17.4,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 9.2,
-          "gustKph": 24.1,
-          "humidityPct": 82,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T08:00",
-          "tempC": 19.1,
-          "apparentTempC": 19.2,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.9,
-          "gustKph": 27.4,
-          "humidityPct": 75,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T09:00",
-          "tempC": 20.8,
-          "apparentTempC": 20.9,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 10.8,
-          "gustKph": 30.2,
-          "humidityPct": 69,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T10:00",
-          "tempC": 22.2,
-          "apparentTempC": 22.5,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 12.1,
-          "gustKph": 31.7,
-          "humidityPct": 64,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T11:00",
-          "tempC": 23.5,
-          "apparentTempC": 24.3,
+          "time": "2026-09-12T05:00",
+          "tempC": 16.4,
+          "apparentTempC": 17.1,
           "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 13.4,
-          "gustKph": 32.4,
-          "humidityPct": 60,
+          "precipitationMm": 0.1,
+          "weatherCode": 51,
+          "windKph": 2.3,
+          "gustKph": 7.9,
+          "humidityPct": 83,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1584,176 +808,14 @@
           }
         },
         {
-          "time": "2026-09-05T12:00",
-          "tempC": 24.5,
-          "apparentTempC": 25.4,
+          "time": "2026-09-12T06:00",
+          "tempC": 16.4,
+          "apparentTempC": 17.3,
           "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 13.8,
-          "gustKph": 32.8,
-          "humidityPct": 57,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T13:00",
-          "tempC": 25.2,
-          "apparentTempC": 25.8,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 12.0,
-          "gustKph": 33.1,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T14:00",
-          "tempC": 25.6,
-          "apparentTempC": 26.5,
-          "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 9.2,
-          "gustKph": 33.1,
-          "humidityPct": 54,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T15:00",
-          "tempC": 25.7,
-          "apparentTempC": 26.5,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 7.5,
-          "gustKph": 32.4,
-          "humidityPct": 54,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T16:00",
-          "tempC": 25.3,
-          "apparentTempC": 26.2,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 7.7,
-          "gustKph": 29.5,
-          "humidityPct": 57,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T17:00",
-          "tempC": 24.6,
-          "apparentTempC": 25.5,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.3,
-          "gustKph": 25.6,
-          "humidityPct": 61,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T18:00",
-          "tempC": 23.7,
-          "apparentTempC": 24.4,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 11.0,
-          "gustKph": 23.4,
-          "humidityPct": 65,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T19:00",
-          "tempC": 22.4,
-          "apparentTempC": 22.4,
-          "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 12.2,
-          "gustKph": 30.2,
-          "humidityPct": 65,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T20:00",
-          "tempC": 21.3,
-          "apparentTempC": 21.1,
-          "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 13.4,
-          "gustKph": 29.5,
-          "humidityPct": 69,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T05:00",
-          "tempC": 17.9,
-          "apparentTempC": 18.1,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.1,
-          "gustKph": 29.5,
+          "precipitationMm": 0.1,
+          "weatherCode": 51,
+          "windKph": 2.0,
+          "gustKph": 7.6,
           "humidityPct": 84,
           "risk": {
             "levelCode": 0,
@@ -1764,87 +826,15 @@
           }
         },
         {
-          "time": "2026-09-06T06:00",
-          "tempC": 18.6,
-          "apparentTempC": 18.8,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.8,
-          "gustKph": 29.5,
-          "humidityPct": 82,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T07:00",
-          "tempC": 19.4,
-          "apparentTempC": 19.6,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 11.8,
-          "gustKph": 29.5,
-          "humidityPct": 79,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T08:00",
-          "tempC": 20.2,
-          "apparentTempC": 20.4,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 12.6,
-          "gustKph": 29.5,
-          "humidityPct": 76,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T09:00",
-          "tempC": 21.0,
-          "apparentTempC": 21.1,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 13.1,
-          "gustKph": 30.2,
-          "humidityPct": 73,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T10:00",
-          "tempC": 21.8,
-          "apparentTempC": 21.9,
+          "time": "2026-09-12T07:00",
+          "tempC": 16.8,
+          "apparentTempC": 17.8,
           "precipitationProbabilityPct": 5,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 13.4,
-          "gustKph": 31.3,
-          "humidityPct": 70,
+          "windKph": 2.5,
+          "gustKph": 8.3,
+          "humidityPct": 84,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1854,33 +844,15 @@
           }
         },
         {
-          "time": "2026-09-06T11:00",
-          "tempC": 22.9,
-          "apparentTempC": 23.1,
-          "precipitationProbabilityPct": 6,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 13.4,
-          "gustKph": 32.8,
-          "humidityPct": 66,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T12:00",
-          "tempC": 23.9,
-          "apparentTempC": 24.5,
+          "time": "2026-09-12T08:00",
+          "tempC": 17.5,
+          "apparentTempC": 18.5,
           "precipitationProbabilityPct": 7,
           "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 13.3,
-          "gustKph": 34.6,
-          "humidityPct": 61,
+          "weatherCode": 3,
+          "windKph": 3.2,
+          "gustKph": 9.7,
+          "humidityPct": 83,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1890,15 +862,15 @@
           }
         },
         {
-          "time": "2026-09-06T13:00",
-          "tempC": 24.8,
-          "apparentTempC": 25.5,
+          "time": "2026-09-12T09:00",
+          "tempC": 18.4,
+          "apparentTempC": 19.3,
           "precipitationProbabilityPct": 8,
           "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 13.4,
-          "gustKph": 36.4,
-          "humidityPct": 58,
+          "weatherCode": 3,
+          "windKph": 3.8,
+          "gustKph": 11.2,
+          "humidityPct": 78,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1908,33 +880,15 @@
           }
         },
         {
-          "time": "2026-09-06T14:00",
-          "tempC": 25.4,
-          "apparentTempC": 25.9,
-          "precipitationProbabilityPct": 9,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 13.4,
-          "gustKph": 37.8,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T15:00",
-          "tempC": 25.5,
-          "apparentTempC": 25.6,
+          "time": "2026-09-12T10:00",
+          "tempC": 19.7,
+          "apparentTempC": 20.3,
           "precipitationProbabilityPct": 10,
           "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 13.6,
-          "gustKph": 38.5,
-          "humidityPct": 54,
+          "weatherCode": 3,
+          "windKph": 4.0,
+          "gustKph": 13.0,
+          "humidityPct": 69,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -1944,50 +898,14 @@
           }
         },
         {
-          "time": "2026-09-06T16:00",
-          "tempC": 25.0,
-          "apparentTempC": 24.7,
-          "precipitationProbabilityPct": 10,
+          "time": "2026-09-12T11:00",
+          "tempC": 21.2,
+          "apparentTempC": 21.4,
+          "precipitationProbabilityPct": 12,
           "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 14.0,
-          "gustKph": 38.5,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T17:00",
-          "tempC": 24.0,
-          "apparentTempC": 23.5,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 14.4,
-          "gustKph": 38.2,
-          "humidityPct": 57,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T18:00",
-          "tempC": 22.6,
-          "apparentTempC": 21.8,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 15.0,
-          "gustKph": 37.1,
+          "weatherCode": 3,
+          "windKph": 4.6,
+          "gustKph": 14.8,
           "humidityPct": 59,
           "risk": {
             "levelCode": 0,
@@ -1998,14 +916,158 @@
           }
         },
         {
-          "time": "2026-09-06T19:00",
-          "tempC": 21.2,
-          "apparentTempC": 20.1,
-          "precipitationProbabilityPct": 11,
+          "time": "2026-09-12T12:00",
+          "tempC": 22.4,
+          "apparentTempC": 22.4,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 5.2,
+          "gustKph": 16.2,
+          "humidityPct": 51,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T13:00",
+          "tempC": 22.9,
+          "apparentTempC": 22.9,
+          "precipitationProbabilityPct": 15,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 5.5,
+          "gustKph": 17.3,
+          "humidityPct": 47,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T14:00",
+          "tempC": 23.1,
+          "apparentTempC": 22.8,
+          "precipitationProbabilityPct": 14,
           "precipitationMm": 0.0,
           "weatherCode": 2,
-          "windKph": 15.6,
-          "gustKph": 36.0,
+          "windKph": 5.5,
+          "gustKph": 18.0,
+          "humidityPct": 44,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T15:00",
+          "tempC": 23.0,
+          "apparentTempC": 22.3,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.3,
+          "gustKph": 18.0,
+          "humidityPct": 43,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T16:00",
+          "tempC": 22.7,
+          "apparentTempC": 22.3,
+          "precipitationProbabilityPct": 13,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 4.9,
+          "gustKph": 17.6,
+          "humidityPct": 47,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T17:00",
+          "tempC": 22.2,
+          "apparentTempC": 22.3,
+          "precipitationProbabilityPct": 13,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 4.3,
+          "gustKph": 16.6,
+          "humidityPct": 54,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T18:00",
+          "tempC": 21.5,
+          "apparentTempC": 22.1,
+          "precipitationProbabilityPct": 12,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 3.6,
+          "gustKph": 15.1,
+          "humidityPct": 61,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T19:00",
+          "tempC": 20.3,
+          "apparentTempC": 20.5,
+          "precipitationProbabilityPct": 12,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 1.8,
+          "gustKph": 10.1,
+          "humidityPct": 57,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T20:00",
+          "tempC": 19.4,
+          "apparentTempC": 19.9,
+          "precipitationProbabilityPct": 12,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 0.8,
+          "gustKph": 7.9,
           "humidityPct": 63,
           "risk": {
             "levelCode": 0,
@@ -2016,15 +1078,285 @@
           }
         },
         {
-          "time": "2026-09-06T20:00",
-          "tempC": 19.8,
-          "apparentTempC": 18.6,
-          "precipitationProbabilityPct": 12,
+          "time": "2026-09-13T05:00",
+          "tempC": 15.6,
+          "apparentTempC": 15.5,
+          "precipitationProbabilityPct": 17,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 4.9,
+          "gustKph": 8.3,
+          "humidityPct": 79,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T06:00",
+          "tempC": 16.1,
+          "apparentTempC": 16.2,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.4,
+          "gustKph": 9.0,
+          "humidityPct": 82,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T07:00",
+          "tempC": 16.7,
+          "apparentTempC": 17.1,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.6,
+          "gustKph": 10.1,
+          "humidityPct": 83,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T08:00",
+          "tempC": 17.4,
+          "apparentTempC": 18.1,
+          "precipitationProbabilityPct": 21,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 15.7,
-          "gustKph": 35.3,
-          "humidityPct": 66,
+          "windKph": 5.4,
+          "gustKph": 11.2,
+          "humidityPct": 84,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T09:00",
+          "tempC": 18.2,
+          "apparentTempC": 19.1,
+          "precipitationProbabilityPct": 22,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.8,
+          "gustKph": 12.2,
+          "humidityPct": 81,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T10:00",
+          "tempC": 19.2,
+          "apparentTempC": 20.4,
+          "precipitationProbabilityPct": 23,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 3.2,
+          "gustKph": 13.7,
+          "humidityPct": 76,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T11:00",
+          "tempC": 20.6,
+          "apparentTempC": 21.9,
+          "precipitationProbabilityPct": 23,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 1.3,
+          "gustKph": 15.8,
+          "humidityPct": 67,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T12:00",
+          "tempC": 22.1,
+          "apparentTempC": 23.1,
+          "precipitationProbabilityPct": 23,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 3.1,
+          "gustKph": 18.0,
+          "humidityPct": 59,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T13:00",
+          "tempC": 23.5,
+          "apparentTempC": 24.2,
+          "precipitationProbabilityPct": 23,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 5.8,
+          "gustKph": 20.2,
+          "humidityPct": 52,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T14:00",
+          "tempC": 24.5,
+          "apparentTempC": 24.7,
+          "precipitationProbabilityPct": 23,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 8.0,
+          "gustKph": 22.0,
+          "humidityPct": 47,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T15:00",
+          "tempC": 25.0,
+          "apparentTempC": 24.6,
+          "precipitationProbabilityPct": 22,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 9.2,
+          "gustKph": 23.0,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T16:00",
+          "tempC": 24.7,
+          "apparentTempC": 24.1,
+          "precipitationProbabilityPct": 21,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 9.2,
+          "gustKph": 23.8,
+          "humidityPct": 46,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T17:00",
+          "tempC": 23.8,
+          "apparentTempC": 23.4,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 8.2,
+          "gustKph": 24.1,
+          "humidityPct": 50,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T18:00",
+          "tempC": 22.5,
+          "apparentTempC": 22.5,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 7.1,
+          "gustKph": 24.5,
+          "humidityPct": 56,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T19:00",
+          "tempC": 21.2,
+          "apparentTempC": 21.5,
+          "precipitationProbabilityPct": 17,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.2,
+          "gustKph": 24.1,
+          "humidityPct": 62,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T20:00",
+          "tempC": 19.9,
+          "apparentTempC": 20.4,
+          "precipitationProbabilityPct": 16,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 5.9,
+          "gustKph": 23.8,
+          "humidityPct": 69,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -2054,61 +1386,30 @@
       "gpxUrl": null,
       "mapQuery": "청계산 옛골·매봉 순환 성남·서울",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 24.2,
-          "tempMinC": 14.2,
-          "apparentMaxC": 23.9,
+          "tempMaxC": 22.6,
+          "tempMinC": 15.3,
+          "apparentMaxC": 23.0,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 2,
-          "windKph": 11.2,
-          "gustKph": 28.8,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:55",
-          "score": 100,
-          "reasons": [
-            "강수 부담 적음",
-            "바람 무난",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "양호",
-            "levelCode": 0,
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:55",
-            "officialCheckRequired": true
-          }
-        },
-        {
-          "date": "2026-09-06",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 23.6,
-          "tempMinC": 15.2,
-          "apparentMaxC": 23.1,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 12.3,
-          "gustKph": 34.2,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
+          "precipitationProbabilityPct": 10,
+          "windKph": 6.6,
+          "gustKph": 19.4,
+          "uvIndex": 6.2,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
@@ -2124,311 +1425,56 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:45",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 23.4,
+          "tempMinC": 13.8,
+          "apparentMaxC": 22.9,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 19,
+          "windKph": 5.0,
+          "gustKph": 18.0,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:43",
+          "score": 100,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "운동하기 좋은 기온",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
       ],
-      "rank": 4,
+      "rank": 3,
       "hourly": [
         {
-          "time": "2026-09-05T05:00",
-          "tempC": 14.2,
-          "apparentTempC": 14.4,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 3.9,
-          "gustKph": 15.1,
-          "humidityPct": 88,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T06:00",
-          "tempC": 14.4,
-          "apparentTempC": 14.6,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 4.1,
-          "gustKph": 14.0,
-          "humidityPct": 87,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T07:00",
-          "tempC": 15.5,
-          "apparentTempC": 15.7,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 4.4,
-          "gustKph": 14.8,
-          "humidityPct": 83,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T08:00",
-          "tempC": 17.2,
-          "apparentTempC": 17.5,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 4.9,
-          "gustKph": 16.6,
-          "humidityPct": 78,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T09:00",
-          "tempC": 18.8,
-          "apparentTempC": 19.1,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 5.7,
-          "gustKph": 18.7,
-          "humidityPct": 72,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T10:00",
-          "tempC": 20.3,
-          "apparentTempC": 20.8,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 7.3,
-          "gustKph": 22.0,
-          "humidityPct": 65,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T11:00",
-          "tempC": 21.8,
-          "apparentTempC": 22.6,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.1,
-          "gustKph": 25.6,
-          "humidityPct": 59,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T12:00",
-          "tempC": 23.0,
-          "apparentTempC": 23.7,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 10.3,
-          "gustKph": 28.1,
-          "humidityPct": 54,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T13:00",
-          "tempC": 23.8,
-          "apparentTempC": 23.7,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 10.4,
-          "gustKph": 28.8,
-          "humidityPct": 51,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T14:00",
-          "tempC": 24.2,
-          "apparentTempC": 23.9,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.9,
-          "gustKph": 28.8,
-          "humidityPct": 50,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T15:00",
-          "tempC": 24.2,
-          "apparentTempC": 23.9,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.3,
-          "gustKph": 28.4,
-          "humidityPct": 50,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T16:00",
-          "tempC": 23.9,
-          "apparentTempC": 23.7,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.1,
-          "gustKph": 27.7,
-          "humidityPct": 52,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T17:00",
-          "tempC": 23.1,
-          "apparentTempC": 23.2,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 8.8,
-          "gustKph": 27.0,
-          "humidityPct": 56,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T18:00",
-          "tempC": 22.3,
-          "apparentTempC": 22.4,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 8.8,
-          "gustKph": 26.3,
-          "humidityPct": 60,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T19:00",
-          "tempC": 21.0,
-          "apparentTempC": 20.5,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 11.0,
-          "gustKph": 27.0,
-          "humidityPct": 62,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T20:00",
-          "tempC": 19.9,
-          "apparentTempC": 19.4,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 11.2,
-          "gustKph": 26.3,
-          "humidityPct": 67,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T05:00",
-          "tempC": 15.9,
-          "apparentTempC": 16.1,
+          "time": "2026-09-12T05:00",
+          "tempC": 15.3,
+          "apparentTempC": 16.2,
           "precipitationProbabilityPct": 4,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 6.5,
-          "gustKph": 25.2,
-          "humidityPct": 85,
+          "windKph": 1.1,
+          "gustKph": 4.3,
+          "humidityPct": 86,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -2438,248 +1484,86 @@
           }
         },
         {
-          "time": "2026-09-06T06:00",
+          "time": "2026-09-12T06:00",
+          "tempC": 15.3,
+          "apparentTempC": 16.0,
+          "precipitationProbabilityPct": 4,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 1.9,
+          "gustKph": 4.3,
+          "humidityPct": 86,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T07:00",
+          "tempC": 15.8,
+          "apparentTempC": 16.4,
+          "precipitationProbabilityPct": 3,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 1.9,
+          "gustKph": 5.0,
+          "humidityPct": 82,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T08:00",
           "tempC": 16.6,
-          "apparentTempC": 16.7,
+          "apparentTempC": 17.1,
+          "precipitationProbabilityPct": 2,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 1.7,
+          "gustKph": 6.1,
+          "humidityPct": 76,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T09:00",
+          "tempC": 17.6,
+          "apparentTempC": 18.0,
+          "precipitationProbabilityPct": 2,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 1.6,
+          "gustKph": 7.9,
+          "humidityPct": 69,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T10:00",
+          "tempC": 19.0,
+          "apparentTempC": 19.1,
           "precipitationProbabilityPct": 4,
           "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 7.4,
-          "gustKph": 25.2,
-          "humidityPct": 83,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T07:00",
-          "tempC": 17.3,
-          "apparentTempC": 17.4,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 8.4,
-          "gustKph": 25.2,
-          "humidityPct": 80,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T08:00",
-          "tempC": 18.2,
-          "apparentTempC": 18.2,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 9.2,
-          "gustKph": 25.6,
-          "humidityPct": 77,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T09:00",
-          "tempC": 18.9,
-          "apparentTempC": 18.9,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.0,
-          "gustKph": 25.9,
-          "humidityPct": 74,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T10:00",
-          "tempC": 19.8,
-          "apparentTempC": 19.6,
-          "precipitationProbabilityPct": 5,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.5,
-          "gustKph": 27.0,
-          "humidityPct": 70,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T11:00",
-          "tempC": 20.8,
-          "apparentTempC": 20.6,
-          "precipitationProbabilityPct": 7,
-          "precipitationMm": 0.0,
           "weatherCode": 2,
-          "windKph": 11.0,
-          "gustKph": 28.1,
-          "humidityPct": 65,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T12:00",
-          "tempC": 21.9,
-          "apparentTempC": 21.8,
-          "precipitationProbabilityPct": 8,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 11.6,
-          "gustKph": 29.9,
-          "humidityPct": 60,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T13:00",
-          "tempC": 22.8,
-          "apparentTempC": 22.7,
-          "precipitationProbabilityPct": 10,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 11.9,
-          "gustKph": 31.3,
-          "humidityPct": 56,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T14:00",
-          "tempC": 23.4,
-          "apparentTempC": 23.1,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 12.2,
-          "gustKph": 32.8,
-          "humidityPct": 53,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T15:00",
-          "tempC": 23.6,
-          "apparentTempC": 22.8,
-          "precipitationProbabilityPct": 12,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 12.3,
-          "gustKph": 33.5,
-          "humidityPct": 52,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T16:00",
-          "tempC": 23.1,
-          "apparentTempC": 22.3,
-          "precipitationProbabilityPct": 12,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 12.2,
-          "gustKph": 33.8,
-          "humidityPct": 53,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T17:00",
-          "tempC": 22.2,
-          "apparentTempC": 21.4,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 11.8,
-          "gustKph": 34.2,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T18:00",
-          "tempC": 21.0,
-          "apparentTempC": 20.0,
-          "precipitationProbabilityPct": 10,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 11.6,
-          "gustKph": 34.2,
-          "humidityPct": 58,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T19:00",
-          "tempC": 19.7,
-          "apparentTempC": 18.7,
-          "precipitationProbabilityPct": 9,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 11.3,
-          "gustKph": 34.2,
+          "windKph": 1.9,
+          "gustKph": 10.8,
           "humidityPct": 61,
           "risk": {
             "levelCode": 0,
@@ -2690,14 +1574,464 @@
           }
         },
         {
-          "time": "2026-09-06T20:00",
-          "tempC": 18.4,
-          "apparentTempC": 17.4,
+          "time": "2026-09-12T11:00",
+          "tempC": 20.5,
+          "apparentTempC": 20.6,
+          "precipitationProbabilityPct": 6,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 3.0,
+          "gustKph": 14.4,
+          "humidityPct": 53,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T12:00",
+          "tempC": 21.7,
+          "apparentTempC": 22.2,
           "precipitationProbabilityPct": 8,
           "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 4.0,
+          "gustKph": 17.3,
+          "humidityPct": 47,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T13:00",
+          "tempC": 22.4,
+          "apparentTempC": 23.0,
+          "precipitationProbabilityPct": 9,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 4.7,
+          "gustKph": 18.4,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T14:00",
+          "tempC": 22.6,
+          "apparentTempC": 23.0,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 5.1,
+          "gustKph": 18.7,
+          "humidityPct": 43,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T15:00",
+          "tempC": 22.6,
+          "apparentTempC": 22.3,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 5.6,
+          "gustKph": 18.7,
+          "humidityPct": 43,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T16:00",
+          "tempC": 22.2,
+          "apparentTempC": 21.2,
+          "precipitationProbabilityPct": 9,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.2,
+          "gustKph": 19.1,
+          "humidityPct": 44,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T17:00",
+          "tempC": 21.5,
+          "apparentTempC": 20.4,
+          "precipitationProbabilityPct": 7,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.6,
+          "gustKph": 19.4,
+          "humidityPct": 46,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T18:00",
+          "tempC": 20.6,
+          "apparentTempC": 19.6,
+          "precipitationProbabilityPct": 6,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.5,
+          "gustKph": 19.1,
+          "humidityPct": 49,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T19:00",
+          "tempC": 19.1,
+          "apparentTempC": 18.7,
+          "precipitationProbabilityPct": 6,
+          "precipitationMm": 0.0,
+          "weatherCode": 0,
+          "windKph": 3.4,
+          "gustKph": 16.6,
+          "humidityPct": 57,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T20:00",
+          "tempC": 17.9,
+          "apparentTempC": 17.8,
+          "precipitationProbabilityPct": 6,
+          "precipitationMm": 0.0,
+          "weatherCode": 0,
+          "windKph": 2.7,
+          "gustKph": 15.1,
+          "humidityPct": 63,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T05:00",
+          "tempC": 14.3,
+          "apparentTempC": 14.0,
+          "precipitationProbabilityPct": 13,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 2.4,
+          "gustKph": 5.8,
+          "humidityPct": 77,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T06:00",
+          "tempC": 14.8,
+          "apparentTempC": 14.6,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 2.9,
+          "gustKph": 6.8,
+          "humidityPct": 77,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T07:00",
+          "tempC": 15.4,
+          "apparentTempC": 15.3,
+          "precipitationProbabilityPct": 15,
+          "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 11.0,
-          "gustKph": 33.8,
+          "windKph": 3.3,
+          "gustKph": 8.3,
+          "humidityPct": 76,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T08:00",
+          "tempC": 16.2,
+          "apparentTempC": 16.2,
+          "precipitationProbabilityPct": 17,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 3.6,
+          "gustKph": 10.1,
+          "humidityPct": 74,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T09:00",
+          "tempC": 17.0,
+          "apparentTempC": 17.1,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 3.2,
+          "gustKph": 11.2,
+          "humidityPct": 71,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T10:00",
+          "tempC": 18.0,
+          "apparentTempC": 18.1,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 2.6,
+          "gustKph": 12.2,
+          "humidityPct": 67,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T11:00",
+          "tempC": 19.3,
+          "apparentTempC": 19.6,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 1.4,
+          "gustKph": 13.3,
+          "humidityPct": 60,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T12:00",
+          "tempC": 20.7,
+          "apparentTempC": 20.9,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 1.2,
+          "gustKph": 14.8,
+          "humidityPct": 54,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T13:00",
+          "tempC": 22.0,
+          "apparentTempC": 22.2,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 2.3,
+          "gustKph": 15.8,
+          "humidityPct": 49,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T14:00",
+          "tempC": 23.0,
+          "apparentTempC": 22.9,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 3.8,
+          "gustKph": 16.6,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T15:00",
+          "tempC": 23.4,
+          "apparentTempC": 22.9,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.6,
+          "gustKph": 17.3,
+          "humidityPct": 44,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T16:00",
+          "tempC": 23.2,
+          "apparentTempC": 22.7,
+          "precipitationProbabilityPct": 17,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.9,
+          "gustKph": 17.6,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T17:00",
+          "tempC": 22.4,
+          "apparentTempC": 21.9,
+          "precipitationProbabilityPct": 17,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.0,
+          "gustKph": 18.0,
+          "humidityPct": 48,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T18:00",
+          "tempC": 21.3,
+          "apparentTempC": 21.0,
+          "precipitationProbabilityPct": 16,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.9,
+          "gustKph": 18.0,
+          "humidityPct": 53,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T19:00",
+          "tempC": 20.0,
+          "apparentTempC": 19.9,
+          "precipitationProbabilityPct": 15,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.6,
+          "gustKph": 17.6,
+          "humidityPct": 59,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T20:00",
+          "tempC": 18.9,
+          "apparentTempC": 18.9,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.6,
+          "gustKph": 17.3,
           "humidityPct": 65,
           "risk": {
             "levelCode": 0,
@@ -2728,7 +2062,7 @@
       "gpxUrl": null,
       "mapQuery": "왕송호수·오봉산 연계 의왕",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
@@ -2738,19 +2072,19 @@
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 27.2,
-          "tempMinC": 17.6,
-          "apparentMaxC": 28.2,
+          "tempMaxC": 25.0,
+          "tempMinC": 18.6,
+          "apparentMaxC": 25.4,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 13.0,
-          "gustKph": 27.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:56",
+          "precipitationProbabilityPct": 14,
+          "windKph": 7.4,
+          "gustKph": 23.8,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
@@ -2765,25 +2099,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:56",
+            "sunset": "18:45",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 26.3,
-          "tempMinC": 18.6,
-          "apparentMaxC": 27.0,
+          "tempMaxC": 26.1,
+          "tempMinC": 17.2,
+          "apparentMaxC": 26.2,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 14.5,
-          "gustKph": 32.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
+          "precipitationProbabilityPct": 21,
+          "windKph": 7.3,
+          "gustKph": 22.7,
+          "uvIndex": 6.3,
+          "sunrise": "06:12",
+          "sunset": "18:44",
+          "score": 98,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -2797,328 +2131,22 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:44",
             "officialCheckRequired": true
           }
         }
       ],
-      "rank": 5,
+      "rank": 4,
       "hourly": [
         {
-          "time": "2026-09-05T05:00",
-          "tempC": 17.6,
-          "apparentTempC": 18.4,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 6.5,
-          "gustKph": 20.5,
-          "humidityPct": 87,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T06:00",
-          "tempC": 17.7,
-          "apparentTempC": 18.7,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 5.8,
-          "gustKph": 18.7,
-          "humidityPct": 86,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T07:00",
-          "tempC": 18.8,
-          "apparentTempC": 19.8,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 5.7,
-          "gustKph": 18.0,
-          "humidityPct": 82,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T08:00",
-          "tempC": 20.4,
-          "apparentTempC": 21.6,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 6.1,
-          "gustKph": 18.4,
-          "humidityPct": 76,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T09:00",
-          "tempC": 22.0,
-          "apparentTempC": 23.2,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 6.8,
-          "gustKph": 19.1,
-          "humidityPct": 70,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T10:00",
-          "tempC": 23.4,
-          "apparentTempC": 24.9,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 0,
-          "windKph": 7.5,
-          "gustKph": 20.5,
-          "humidityPct": 65,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T11:00",
-          "tempC": 24.8,
-          "apparentTempC": 26.9,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 8.4,
-          "gustKph": 22.7,
-          "humidityPct": 61,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T12:00",
-          "tempC": 25.8,
-          "apparentTempC": 28.1,
-          "precipitationProbabilityPct": 2,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 9.0,
-          "gustKph": 24.5,
-          "humidityPct": 57,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T13:00",
-          "tempC": 26.6,
-          "apparentTempC": 28.2,
-          "precipitationProbabilityPct": 3,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 9.3,
-          "gustKph": 25.6,
-          "humidityPct": 53,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T14:00",
-          "tempC": 27.1,
-          "apparentTempC": 28.2,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.4,
-          "gustKph": 26.3,
-          "humidityPct": 50,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T15:00",
-          "tempC": 27.2,
-          "apparentTempC": 27.8,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 9.4,
-          "gustKph": 26.6,
-          "humidityPct": 49,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T16:00",
-          "tempC": 26.9,
-          "apparentTempC": 27.7,
-          "precipitationProbabilityPct": 3,
+          "time": "2026-09-12T05:00",
+          "tempC": 18.6,
+          "apparentTempC": 19.7,
+          "precipitationProbabilityPct": 7,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 8.5,
-          "gustKph": 26.3,
-          "humidityPct": 51,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T17:00",
-          "tempC": 26.3,
-          "apparentTempC": 27.6,
-          "precipitationProbabilityPct": 1,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 7.5,
-          "gustKph": 25.2,
-          "humidityPct": 56,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T18:00",
-          "tempC": 25.6,
-          "apparentTempC": 27.1,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 7.2,
-          "gustKph": 24.8,
-          "humidityPct": 60,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T19:00",
-          "tempC": 24.5,
-          "apparentTempC": 25.0,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 12.1,
-          "gustKph": 27.4,
-          "humidityPct": 61,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-05T20:00",
-          "tempC": 23.5,
-          "apparentTempC": 24.1,
-          "precipitationProbabilityPct": 0,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 12.8,
-          "gustKph": 27.4,
-          "humidityPct": 66,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T05:00",
-          "tempC": 19.2,
-          "apparentTempC": 20.0,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 8.9,
-          "gustKph": 27.0,
-          "humidityPct": 83,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T06:00",
-          "tempC": 19.8,
-          "apparentTempC": 20.7,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 9.4,
-          "gustKph": 26.6,
+          "windKph": 4.4,
+          "gustKph": 10.1,
           "humidityPct": 81,
           "risk": {
             "levelCode": 0,
@@ -3129,15 +2157,15 @@
           }
         },
         {
-          "time": "2026-09-06T07:00",
-          "tempC": 20.5,
-          "apparentTempC": 21.4,
-          "precipitationProbabilityPct": 4,
+          "time": "2026-09-12T06:00",
+          "tempC": 18.6,
+          "apparentTempC": 19.6,
+          "precipitationProbabilityPct": 8,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 9.9,
-          "gustKph": 26.3,
-          "humidityPct": 79,
+          "windKph": 4.7,
+          "gustKph": 10.1,
+          "humidityPct": 81,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -3147,15 +2175,15 @@
           }
         },
         {
-          "time": "2026-09-06T08:00",
-          "tempC": 21.3,
-          "apparentTempC": 22.2,
-          "precipitationProbabilityPct": 4,
+          "time": "2026-09-12T07:00",
+          "tempC": 19.0,
+          "apparentTempC": 20.1,
+          "precipitationProbabilityPct": 7,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 10.4,
-          "gustKph": 25.9,
-          "humidityPct": 76,
+          "windKph": 4.4,
+          "gustKph": 9.7,
+          "humidityPct": 78,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -3165,33 +2193,15 @@
           }
         },
         {
-          "time": "2026-09-06T09:00",
-          "tempC": 22.0,
-          "apparentTempC": 22.9,
-          "precipitationProbabilityPct": 4,
-          "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 10.9,
-          "gustKph": 26.3,
-          "humidityPct": 74,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T10:00",
-          "tempC": 22.8,
-          "apparentTempC": 23.7,
+          "time": "2026-09-12T08:00",
+          "tempC": 19.8,
+          "apparentTempC": 20.9,
           "precipitationProbabilityPct": 5,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 11.4,
-          "gustKph": 27.0,
-          "humidityPct": 70,
+          "windKph": 3.5,
+          "gustKph": 9.4,
+          "humidityPct": 73,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -3201,14 +2211,14 @@
           }
         },
         {
-          "time": "2026-09-06T11:00",
-          "tempC": 23.7,
-          "apparentTempC": 24.6,
-          "precipitationProbabilityPct": 6,
+          "time": "2026-09-12T09:00",
+          "tempC": 20.8,
+          "apparentTempC": 21.7,
+          "precipitationProbabilityPct": 4,
           "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 11.9,
-          "gustKph": 28.1,
+          "windKph": 3.1,
+          "gustKph": 10.1,
           "humidityPct": 66,
           "risk": {
             "levelCode": 0,
@@ -3219,122 +2229,14 @@
           }
         },
         {
-          "time": "2026-09-06T12:00",
-          "tempC": 24.7,
-          "apparentTempC": 25.8,
-          "precipitationProbabilityPct": 7,
+          "time": "2026-09-12T10:00",
+          "tempC": 22.0,
+          "apparentTempC": 22.6,
+          "precipitationProbabilityPct": 5,
           "precipitationMm": 0.0,
           "weatherCode": 2,
-          "windKph": 12.4,
-          "gustKph": 29.2,
-          "humidityPct": 62,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T13:00",
-          "tempC": 25.6,
-          "apparentTempC": 26.7,
-          "precipitationProbabilityPct": 8,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 12.9,
-          "gustKph": 30.2,
-          "humidityPct": 59,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T14:00",
-          "tempC": 26.2,
-          "apparentTempC": 27.0,
-          "precipitationProbabilityPct": 9,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 13.4,
-          "gustKph": 31.3,
-          "humidityPct": 56,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T15:00",
-          "tempC": 26.3,
-          "apparentTempC": 26.7,
-          "precipitationProbabilityPct": 10,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 13.5,
-          "gustKph": 32.0,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T16:00",
-          "tempC": 26.0,
-          "apparentTempC": 26.1,
-          "precipitationProbabilityPct": 10,
-          "precipitationMm": 0.0,
-          "weatherCode": 1,
-          "windKph": 13.6,
-          "gustKph": 32.4,
-          "humidityPct": 55,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T17:00",
-          "tempC": 25.2,
-          "apparentTempC": 25.1,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 13.7,
-          "gustKph": 32.4,
-          "humidityPct": 56,
-          "risk": {
-            "levelCode": 0,
-            "level": "양호",
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ]
-          }
-        },
-        {
-          "time": "2026-09-06T18:00",
-          "tempC": 24.1,
-          "apparentTempC": 23.9,
-          "precipitationProbabilityPct": 11,
-          "precipitationMm": 0.0,
-          "weatherCode": 2,
-          "windKph": 13.9,
-          "gustKph": 32.4,
+          "windKph": 3.6,
+          "gustKph": 13.0,
           "humidityPct": 58,
           "risk": {
             "levelCode": 0,
@@ -3345,15 +2247,15 @@
           }
         },
         {
-          "time": "2026-09-06T19:00",
-          "tempC": 23.0,
-          "apparentTempC": 22.6,
-          "precipitationProbabilityPct": 11,
+          "time": "2026-09-12T11:00",
+          "tempC": 23.4,
+          "apparentTempC": 23.7,
+          "precipitationProbabilityPct": 8,
           "precipitationMm": 0.0,
-          "weatherCode": 3,
-          "windKph": 14.2,
-          "gustKph": 32.0,
-          "humidityPct": 61,
+          "weatherCode": 1,
+          "windKph": 4.8,
+          "gustKph": 16.6,
+          "humidityPct": 50,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -3363,15 +2265,1122 @@
           }
         },
         {
-          "time": "2026-09-06T20:00",
+          "time": "2026-09-12T12:00",
+          "tempC": 24.5,
+          "apparentTempC": 25.0,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 5.8,
+          "gustKph": 19.8,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T13:00",
+          "tempC": 24.9,
+          "apparentTempC": 25.4,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.5,
+          "gustKph": 21.6,
+          "humidityPct": 43,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T14:00",
+          "tempC": 25.0,
+          "apparentTempC": 25.3,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.1,
+          "gustKph": 22.7,
+          "humidityPct": 42,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T15:00",
+          "tempC": 24.8,
+          "apparentTempC": 24.7,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.4,
+          "gustKph": 23.4,
+          "humidityPct": 43,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T16:00",
+          "tempC": 24.5,
+          "apparentTempC": 23.9,
+          "precipitationProbabilityPct": 11,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.0,
+          "gustKph": 23.8,
+          "humidityPct": 44,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T17:00",
+          "tempC": 23.9,
+          "apparentTempC": 23.6,
+          "precipitationProbabilityPct": 13,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 6.1,
+          "gustKph": 23.4,
+          "humidityPct": 47,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T18:00",
+          "tempC": 23.2,
+          "apparentTempC": 23.2,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.9,
+          "gustKph": 22.0,
+          "humidityPct": 51,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T19:00",
           "tempC": 21.9,
-          "apparentTempC": 21.3,
+          "apparentTempC": 22.7,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 0,
+          "windKph": 2.1,
+          "gustKph": 14.8,
+          "humidityPct": 58,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T20:00",
+          "tempC": 21.0,
+          "apparentTempC": 22.0,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 0,
+          "windKph": 1.5,
+          "gustKph": 11.9,
+          "humidityPct": 64,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T05:00",
+          "tempC": 17.6,
+          "apparentTempC": 18.3,
           "precipitationProbabilityPct": 12,
           "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.6,
+          "gustKph": 9.0,
+          "humidityPct": 82,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T06:00",
+          "tempC": 18.0,
+          "apparentTempC": 18.9,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.9,
+          "gustKph": 9.7,
+          "humidityPct": 82,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T07:00",
+          "tempC": 18.6,
+          "apparentTempC": 19.6,
+          "precipitationProbabilityPct": 15,
+          "precipitationMm": 0.0,
           "weatherCode": 3,
-          "windKph": 14.5,
-          "gustKph": 31.7,
+          "windKph": 5.0,
+          "gustKph": 10.1,
+          "humidityPct": 81,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T08:00",
+          "tempC": 19.3,
+          "apparentTempC": 20.4,
+          "precipitationProbabilityPct": 17,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.9,
+          "gustKph": 10.8,
+          "humidityPct": 79,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T09:00",
+          "tempC": 20.0,
+          "apparentTempC": 21.1,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.6,
+          "gustKph": 11.9,
+          "humidityPct": 76,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T10:00",
+          "tempC": 20.9,
+          "apparentTempC": 22.2,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 3.5,
+          "gustKph": 13.0,
+          "humidityPct": 70,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T11:00",
+          "tempC": 22.2,
+          "apparentTempC": 23.4,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 2.0,
+          "gustKph": 14.8,
+          "humidityPct": 63,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T12:00",
+          "tempC": 23.5,
+          "apparentTempC": 24.6,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 1.7,
+          "gustKph": 16.2,
+          "humidityPct": 56,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T13:00",
+          "tempC": 24.8,
+          "apparentTempC": 25.7,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 3.4,
+          "gustKph": 18.0,
+          "humidityPct": 50,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T14:00",
+          "tempC": 25.7,
+          "apparentTempC": 26.2,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.3,
+          "gustKph": 19.4,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T15:00",
+          "tempC": 26.1,
+          "apparentTempC": 26.1,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 6.5,
+          "gustKph": 20.5,
+          "humidityPct": 44,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T16:00",
+          "tempC": 25.8,
+          "apparentTempC": 25.7,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.0,
+          "gustKph": 21.2,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T17:00",
+          "tempC": 25.0,
+          "apparentTempC": 25.0,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.2,
+          "gustKph": 22.0,
+          "humidityPct": 48,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T18:00",
+          "tempC": 24.0,
+          "apparentTempC": 24.1,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.1,
+          "gustKph": 22.3,
+          "humidityPct": 53,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T19:00",
+          "tempC": 22.8,
+          "apparentTempC": 23.2,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 7.0,
+          "gustKph": 22.7,
+          "humidityPct": 59,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T20:00",
+          "tempC": 21.6,
+          "apparentTempC": 22.2,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 7.1,
+          "gustKph": 22.7,
+          "humidityPct": 65,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "surisan-loop",
+      "name": "수리산 태을봉·슬기봉 순환",
+      "area": "군포·안양",
+      "distanceKm": 12.4,
+      "ascentM": 780,
+      "duration": "4시간~5시간",
+      "difficulty": "중상",
+      "surface": "암릉·계단·능선",
+      "transport": "수리산역·명학역 방면",
+      "bac": "블랙야크 100대 명산+",
+      "summary": "암릉과 급경사를 섞어 기술적인 주행을 연습하기 좋은 코스",
+      "caution": "비나 결빙 때 암릉 통과를 피하세요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "수리산 태을봉·슬기봉 순환 군포·안양",
+      "verificationDate": null,
+      "bestDay": "2026-09-12",
+      "bestScore": 100,
+      "bestAdvice": "적극 추천",
+      "bestReasons": [
+        "강수 부담 적음",
+        "바람 무난",
+        "운동하기 좋은 기온",
+        "자외선 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-09-12",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 23.9,
+          "tempMinC": 17.5,
+          "apparentMaxC": 24.0,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 14,
+          "windKph": 7.4,
+          "gustKph": 23.8,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
+          "score": 100,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "운동하기 좋은 기온",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:45",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 25.0,
+          "tempMinC": 16.1,
+          "apparentMaxC": 24.8,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 21,
+          "windKph": 7.3,
+          "gustKph": 22.7,
+          "uvIndex": 6.3,
+          "sunrise": "06:12",
+          "sunset": "18:44",
+          "score": 98,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:44",
+            "officialCheckRequired": true
+          }
+        }
+      ],
+      "rank": 5,
+      "hourly": [
+        {
+          "time": "2026-09-12T05:00",
+          "tempC": 17.5,
+          "apparentTempC": 18.2,
+          "precipitationProbabilityPct": 7,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.4,
+          "gustKph": 10.1,
+          "humidityPct": 81,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T06:00",
+          "tempC": 17.5,
+          "apparentTempC": 18.2,
+          "precipitationProbabilityPct": 8,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.7,
+          "gustKph": 10.1,
+          "humidityPct": 81,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T07:00",
+          "tempC": 17.9,
+          "apparentTempC": 18.6,
+          "precipitationProbabilityPct": 7,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.4,
+          "gustKph": 9.7,
+          "humidityPct": 78,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T08:00",
+          "tempC": 18.7,
+          "apparentTempC": 19.4,
+          "precipitationProbabilityPct": 5,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 3.5,
+          "gustKph": 9.4,
+          "humidityPct": 72,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T09:00",
+          "tempC": 19.7,
+          "apparentTempC": 20.2,
+          "precipitationProbabilityPct": 4,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 3.1,
+          "gustKph": 10.1,
+          "humidityPct": 66,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T10:00",
+          "tempC": 20.9,
+          "apparentTempC": 21.1,
+          "precipitationProbabilityPct": 5,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 3.6,
+          "gustKph": 13.0,
+          "humidityPct": 58,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T11:00",
+          "tempC": 22.3,
+          "apparentTempC": 22.2,
+          "precipitationProbabilityPct": 8,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 4.8,
+          "gustKph": 16.6,
+          "humidityPct": 50,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T12:00",
+          "tempC": 23.4,
+          "apparentTempC": 23.6,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 5.8,
+          "gustKph": 19.8,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T13:00",
+          "tempC": 23.8,
+          "apparentTempC": 24.0,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 1,
+          "windKph": 6.5,
+          "gustKph": 21.6,
+          "humidityPct": 42,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T14:00",
+          "tempC": 23.9,
+          "apparentTempC": 23.8,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.1,
+          "gustKph": 22.7,
+          "humidityPct": 42,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T15:00",
+          "tempC": 23.7,
+          "apparentTempC": 23.3,
+          "precipitationProbabilityPct": 10,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.4,
+          "gustKph": 23.4,
+          "humidityPct": 42,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T16:00",
+          "tempC": 23.4,
+          "apparentTempC": 22.5,
+          "precipitationProbabilityPct": 11,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.0,
+          "gustKph": 23.8,
+          "humidityPct": 44,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T17:00",
+          "tempC": 22.8,
+          "apparentTempC": 22.1,
+          "precipitationProbabilityPct": 13,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 6.1,
+          "gustKph": 23.4,
+          "humidityPct": 47,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T18:00",
+          "tempC": 22.1,
+          "apparentTempC": 21.8,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.9,
+          "gustKph": 22.0,
+          "humidityPct": 51,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T19:00",
+          "tempC": 20.8,
+          "apparentTempC": 21.2,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 0,
+          "windKph": 2.1,
+          "gustKph": 14.8,
+          "humidityPct": 58,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-12T20:00",
+          "tempC": 19.9,
+          "apparentTempC": 20.5,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 0,
+          "windKph": 1.5,
+          "gustKph": 11.9,
           "humidityPct": 64,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T05:00",
+          "tempC": 16.5,
+          "apparentTempC": 16.8,
+          "precipitationProbabilityPct": 12,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.6,
+          "gustKph": 9.0,
+          "humidityPct": 81,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T06:00",
+          "tempC": 16.9,
+          "apparentTempC": 17.4,
+          "precipitationProbabilityPct": 14,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 4.9,
+          "gustKph": 9.7,
+          "humidityPct": 81,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T07:00",
+          "tempC": 17.5,
+          "apparentTempC": 18.1,
+          "precipitationProbabilityPct": 15,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 5.0,
+          "gustKph": 10.1,
+          "humidityPct": 81,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T08:00",
+          "tempC": 18.2,
+          "apparentTempC": 18.9,
+          "precipitationProbabilityPct": 17,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.9,
+          "gustKph": 10.8,
+          "humidityPct": 78,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T09:00",
+          "tempC": 18.9,
+          "apparentTempC": 19.6,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 4.6,
+          "gustKph": 11.9,
+          "humidityPct": 75,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T10:00",
+          "tempC": 19.8,
+          "apparentTempC": 20.7,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 3.5,
+          "gustKph": 13.0,
+          "humidityPct": 70,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T11:00",
+          "tempC": 21.1,
+          "apparentTempC": 22.0,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 2.0,
+          "gustKph": 14.8,
+          "humidityPct": 63,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T12:00",
+          "tempC": 22.4,
+          "apparentTempC": 23.1,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 1.7,
+          "gustKph": 16.2,
+          "humidityPct": 55,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T13:00",
+          "tempC": 23.7,
+          "apparentTempC": 24.3,
+          "precipitationProbabilityPct": 19,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 3.4,
+          "gustKph": 18.0,
+          "humidityPct": 49,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T14:00",
+          "tempC": 24.6,
+          "apparentTempC": 24.8,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 5.3,
+          "gustKph": 19.4,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T15:00",
+          "tempC": 25.0,
+          "apparentTempC": 24.7,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 6.5,
+          "gustKph": 20.5,
+          "humidityPct": 44,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T16:00",
+          "tempC": 24.7,
+          "apparentTempC": 24.3,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.0,
+          "gustKph": 21.2,
+          "humidityPct": 45,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T17:00",
+          "tempC": 23.9,
+          "apparentTempC": 23.6,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.2,
+          "gustKph": 22.0,
+          "humidityPct": 48,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T18:00",
+          "tempC": 22.9,
+          "apparentTempC": 22.7,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 2,
+          "windKph": 7.1,
+          "gustKph": 22.3,
+          "humidityPct": 53,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T19:00",
+          "tempC": 21.7,
+          "apparentTempC": 21.7,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 7.0,
+          "gustKph": 22.7,
+          "humidityPct": 59,
+          "risk": {
+            "levelCode": 0,
+            "level": "양호",
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ]
+          }
+        },
+        {
+          "time": "2026-09-13T20:00",
+          "tempC": 20.5,
+          "apparentTempC": 20.7,
+          "precipitationProbabilityPct": 18,
+          "precipitationMm": 0.0,
+          "weatherCode": 3,
+          "windKph": 7.1,
+          "gustKph": 22.7,
+          "humidityPct": 65,
           "risk": {
             "levelCode": 0,
             "level": "양호",
@@ -3403,33 +3412,35 @@
       "gpxUrl": null,
       "mapQuery": "광교산 형제봉 왕복 수원·광교",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.6,
-          "tempMinC": 15.7,
-          "apparentMaxC": 26.1,
+          "tempMaxC": 23.4,
+          "tempMinC": 16.6,
+          "apparentMaxC": 23.7,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 12.4,
-          "gustKph": 28.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:55",
+          "precipitationProbabilityPct": 14,
+          "windKph": 6.6,
+          "gustKph": 21.2,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
+            "운동하기 좋은 기온",
             "자외선 강함"
           ],
           "advice": "적극 추천",
@@ -3440,25 +3451,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:55",
+            "sunset": "18:45",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.0,
-          "tempMinC": 16.8,
-          "apparentMaxC": 25.1,
+          "tempMaxC": 24.6,
+          "tempMinC": 14.9,
+          "apparentMaxC": 24.6,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 13.3,
-          "gustKph": 34.2,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
+          "precipitationProbabilityPct": 21,
+          "windKph": 6.0,
+          "gustKph": 19.1,
+          "uvIndex": 6.5,
+          "sunrise": "06:11",
+          "sunset": "18:43",
+          "score": 98,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -3472,100 +3483,7 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
-            "officialCheckRequired": true
-          }
-        }
-      ]
-    },
-    {
-      "id": "chilbo-ridge",
-      "name": "칠보산 능선 순환",
-      "area": "수원·화성",
-      "distanceKm": 9.6,
-      "ascentM": 430,
-      "duration": "2시간 30분~4시간",
-      "difficulty": "중",
-      "surface": "완만한 능선·흙길",
-      "transport": "호매실·칠보산 입구 방면",
-      "bac": "블랙야크 100대 명산 해당 없음",
-      "summary": "수원 서부에서 짧은 업다운을 반복하기 좋은 숲길",
-      "caution": "갈림길이 많아 GPX 확인이 도움이 돼요.",
-      "profileQuality": "estimated",
-      "profileQualityLabel": "고저도 추정 · GPX 미검증",
-      "gpxVerified": false,
-      "gpxUrl": null,
-      "mapQuery": "칠보산 능선 순환 수원·화성",
-      "verificationDate": null,
-      "bestDay": "2026-09-05",
-      "bestScore": 100,
-      "bestAdvice": "적극 추천",
-      "bestReasons": [
-        "강수 부담 적음",
-        "바람 무난",
-        "자외선 강함"
-      ],
-      "weather": [
-        {
-          "date": "2026-09-05",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 27.4,
-          "tempMinC": 17.2,
-          "apparentMaxC": 28.5,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 10.6,
-          "gustKph": 26.6,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:56",
-          "score": 100,
-          "reasons": [
-            "강수 부담 적음",
-            "바람 무난",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "양호",
-            "levelCode": 0,
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:56",
-            "officialCheckRequired": true
-          }
-        },
-        {
-          "date": "2026-09-06",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 26.5,
-          "tempMinC": 18.4,
-          "apparentMaxC": 28.2,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 15.7,
-          "gustKph": 32.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
-          "reasons": [
-            "강수 부담 적음",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "양호",
-            "levelCode": 0,
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
@@ -3590,30 +3508,64 @@
       "gpxUrl": null,
       "mapQuery": "석성산·할미산성 순환 용인",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
+          "weatherCode": 51,
+          "weatherLabel": "이슬비",
+          "tempMaxC": 23.1,
+          "tempMinC": 16.4,
+          "apparentMaxC": 22.9,
+          "precipitationMm": 0.3,
+          "precipitationProbabilityPct": 15,
+          "windKph": 5.5,
+          "gustKph": 18.0,
+          "uvIndex": 6.4,
+          "sunrise": "06:10",
+          "sunset": "18:44",
+          "score": 100,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "운동하기 좋은 기온",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:44",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.7,
-          "tempMinC": 15.9,
-          "apparentMaxC": 26.5,
+          "tempMaxC": 25.0,
+          "tempMinC": 15.3,
+          "apparentMaxC": 24.7,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 13.9,
-          "gustKph": 33.1,
-          "uvIndex": 6.8,
-          "sunrise": "06:04",
-          "sunset": "18:55",
-          "score": 100,
+          "precipitationProbabilityPct": 23,
+          "windKph": 9.2,
+          "gustKph": 24.5,
+          "uvIndex": 6.5,
+          "sunrise": "06:11",
+          "sunset": "18:43",
+          "score": 97,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -3627,39 +3579,7 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:55",
-            "officialCheckRequired": true
-          }
-        },
-        {
-          "date": "2026-09-06",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 25.5,
-          "tempMinC": 17.1,
-          "apparentMaxC": 25.9,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 15.7,
-          "gustKph": 38.5,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:53",
-          "score": 98,
-          "reasons": [
-            "강수 부담 적음",
-            "능선 돌풍 주의",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "경계",
-            "levelCode": 2,
-            "flags": [
-              "돌풍 주의"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:53",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
@@ -3684,61 +3604,30 @@
       "gpxUrl": null,
       "mapQuery": "청계산 옛골·매봉 순환 성남·서울",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 24.2,
-          "tempMinC": 14.2,
-          "apparentMaxC": 23.9,
+          "tempMaxC": 22.6,
+          "tempMinC": 15.3,
+          "apparentMaxC": 23.0,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 2,
-          "windKph": 11.2,
-          "gustKph": 28.8,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:55",
-          "score": 100,
-          "reasons": [
-            "강수 부담 적음",
-            "바람 무난",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "양호",
-            "levelCode": 0,
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:55",
-            "officialCheckRequired": true
-          }
-        },
-        {
-          "date": "2026-09-06",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 23.6,
-          "tempMinC": 15.2,
-          "apparentMaxC": 23.1,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 12.3,
-          "gustKph": 34.2,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
+          "precipitationProbabilityPct": 10,
+          "windKph": 6.6,
+          "gustKph": 19.4,
+          "uvIndex": 6.2,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
@@ -3754,7 +3643,40 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:45",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 23.4,
+          "tempMinC": 13.8,
+          "apparentMaxC": 22.9,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 19,
+          "windKph": 5.0,
+          "gustKph": 18.0,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:43",
+          "score": 100,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "운동하기 좋은 기온",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
@@ -3779,7 +3701,7 @@
       "gpxUrl": null,
       "mapQuery": "왕송호수·오봉산 연계 의왕",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
@@ -3789,19 +3711,19 @@
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 27.2,
-          "tempMinC": 17.6,
-          "apparentMaxC": 28.2,
+          "tempMaxC": 25.0,
+          "tempMinC": 18.6,
+          "apparentMaxC": 25.4,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 13.0,
-          "gustKph": 27.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:56",
+          "precipitationProbabilityPct": 14,
+          "windKph": 7.4,
+          "gustKph": 23.8,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
@@ -3816,25 +3738,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:56",
+            "sunset": "18:45",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 26.3,
-          "tempMinC": 18.6,
-          "apparentMaxC": 27.0,
+          "tempMaxC": 26.1,
+          "tempMinC": 17.2,
+          "apparentMaxC": 26.2,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 14.5,
-          "gustKph": 32.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
+          "precipitationProbabilityPct": 21,
+          "windKph": 7.3,
+          "gustKph": 22.7,
+          "uvIndex": 6.3,
+          "sunrise": "06:12",
+          "sunset": "18:44",
+          "score": 98,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -3848,7 +3770,7 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:44",
             "officialCheckRequired": true
           }
         }
@@ -3873,33 +3795,35 @@
       "gpxUrl": null,
       "mapQuery": "수리산 태을봉·슬기봉 순환 군포·안양",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 26.1,
-          "tempMinC": 16.5,
-          "apparentMaxC": 26.7,
+          "tempMaxC": 23.9,
+          "tempMinC": 17.5,
+          "apparentMaxC": 24.0,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 13.0,
-          "gustKph": 27.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:56",
+          "precipitationProbabilityPct": 14,
+          "windKph": 7.4,
+          "gustKph": 23.8,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
+            "운동하기 좋은 기온",
             "자외선 강함"
           ],
           "advice": "적극 추천",
@@ -3910,25 +3834,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:56",
+            "sunset": "18:45",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.2,
-          "tempMinC": 17.5,
-          "apparentMaxC": 25.5,
+          "tempMaxC": 25.0,
+          "tempMinC": 16.1,
+          "apparentMaxC": 24.8,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 14.5,
-          "gustKph": 32.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:55",
-          "score": 100,
+          "precipitationProbabilityPct": 21,
+          "windKph": 7.3,
+          "gustKph": 22.7,
+          "uvIndex": 6.3,
+          "sunrise": "06:12",
+          "sunset": "18:44",
+          "score": 98,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -3942,7 +3866,7 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:55",
+            "sunset": "18:44",
             "officialCheckRequired": true
           }
         }
@@ -3967,61 +3891,30 @@
       "gpxUrl": null,
       "mapQuery": "관악산 사당·연주대 서울·과천",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 24.1,
-          "tempMinC": 14.7,
-          "apparentMaxC": 24.1,
+          "tempMaxC": 22.6,
+          "tempMinC": 15.7,
+          "apparentMaxC": 22.9,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 2,
-          "windKph": 12.0,
-          "gustKph": 28.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:56",
-          "score": 100,
-          "reasons": [
-            "강수 부담 적음",
-            "바람 무난",
-            "자외선 강함"
-          ],
-          "advice": "적극 추천",
-          "safety": {
-            "level": "양호",
-            "levelCode": 0,
-            "flags": [
-              "예보상 큰 위험요소 없음"
-            ],
-            "recommendedStart": "06:30",
-            "sunset": "18:56",
-            "officialCheckRequired": true
-          }
-        },
-        {
-          "date": "2026-09-06",
-          "weatherCode": 3,
-          "weatherLabel": "흐림",
-          "tempMaxC": 23.4,
-          "tempMinC": 15.3,
-          "apparentMaxC": 23.0,
-          "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 13.0,
-          "gustKph": 33.8,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
+          "precipitationProbabilityPct": 10,
+          "windKph": 7.4,
+          "gustKph": 23.4,
+          "uvIndex": 6.1,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
@@ -4037,7 +3930,40 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:45",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 23.2,
+          "tempMinC": 14.7,
+          "apparentMaxC": 22.4,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 19,
+          "windKph": 6.4,
+          "gustKph": 21.6,
+          "uvIndex": 6.3,
+          "sunrise": "06:12",
+          "sunset": "18:44",
+          "score": 100,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "운동하기 좋은 기온",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:44",
             "officialCheckRequired": true
           }
         }
@@ -4062,7 +3988,7 @@
       "gpxUrl": null,
       "mapQuery": "불곡산·영장산 연계 성남·분당",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
@@ -4072,19 +3998,19 @@
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 26.6,
-          "tempMinC": 16.5,
-          "apparentMaxC": 27.5,
+          "tempMaxC": 24.5,
+          "tempMinC": 17.3,
+          "apparentMaxC": 25.1,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 13.1,
-          "gustKph": 29.9,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:55",
+          "precipitationProbabilityPct": 15,
+          "windKph": 5.5,
+          "gustKph": 18.7,
+          "uvIndex": 6.4,
+          "sunrise": "06:10",
+          "sunset": "18:44",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
@@ -4099,39 +4025,39 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:55",
+            "sunset": "18:44",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 26.3,
-          "tempMinC": 17.7,
-          "apparentMaxC": 26.8,
+          "tempMaxC": 25.6,
+          "tempMinC": 15.5,
+          "apparentMaxC": 26.0,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 13.1,
-          "gustKph": 35.3,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:54",
-          "score": 100,
+          "precipitationProbabilityPct": 23,
+          "windKph": 6.6,
+          "gustKph": 20.5,
+          "uvIndex": 6.5,
+          "sunrise": "06:11",
+          "sunset": "18:43",
+          "score": 97,
           "reasons": [
             "강수 부담 적음",
-            "능선 돌풍 주의",
+            "바람 무난",
             "자외선 강함"
           ],
           "advice": "적극 추천",
           "safety": {
-            "level": "경계",
-            "levelCode": 2,
+            "level": "양호",
+            "levelCode": 0,
             "flags": [
-              "돌풍 주의"
+              "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
@@ -4156,33 +4082,35 @@
       "gpxUrl": null,
       "mapQuery": "광교산 시루봉 종주 수원·용인",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.2,
-          "tempMinC": 15.3,
-          "apparentMaxC": 25.5,
+          "tempMaxC": 22.9,
+          "tempMinC": 16.2,
+          "apparentMaxC": 23.1,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 12.4,
-          "gustKph": 28.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:56",
+          "precipitationProbabilityPct": 14,
+          "windKph": 6.6,
+          "gustKph": 21.2,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
+            "운동하기 좋은 기온",
             "자외선 강함"
           ],
           "advice": "적극 추천",
@@ -4193,25 +4121,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:56",
+            "sunset": "18:45",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 24.5,
-          "tempMinC": 16.3,
-          "apparentMaxC": 24.5,
+          "tempMaxC": 24.1,
+          "tempMinC": 14.4,
+          "apparentMaxC": 24.0,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 13.3,
-          "gustKph": 34.2,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
+          "precipitationProbabilityPct": 21,
+          "windKph": 6.0,
+          "gustKph": 19.1,
+          "uvIndex": 6.5,
+          "sunrise": "06:12",
+          "sunset": "18:43",
+          "score": 98,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -4225,7 +4153,7 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
@@ -4250,7 +4178,7 @@
       "gpxUrl": null,
       "mapQuery": "삼성산·호암산 연계 서울·안양",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
@@ -4260,19 +4188,19 @@
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 26.3,
-          "tempMinC": 16.9,
-          "apparentMaxC": 27.1,
+          "tempMaxC": 24.8,
+          "tempMinC": 17.9,
+          "apparentMaxC": 25.8,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 2,
-          "windKph": 12.0,
-          "gustKph": 28.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:56",
+          "precipitationProbabilityPct": 10,
+          "windKph": 7.4,
+          "gustKph": 23.4,
+          "uvIndex": 6.1,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
@@ -4287,25 +4215,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:56",
+            "sunset": "18:45",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.6,
-          "tempMinC": 17.5,
-          "apparentMaxC": 26.0,
+          "tempMaxC": 25.4,
+          "tempMinC": 16.9,
+          "apparentMaxC": 25.3,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 13.0,
-          "gustKph": 33.8,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
+          "precipitationProbabilityPct": 19,
+          "windKph": 6.4,
+          "gustKph": 21.6,
+          "uvIndex": 6.3,
+          "sunrise": "06:12",
+          "sunset": "18:44",
+          "score": 99,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -4319,7 +4247,7 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:54",
+            "sunset": "18:44",
             "officialCheckRequired": true
           }
         }
@@ -4344,33 +4272,35 @@
       "gpxUrl": null,
       "mapQuery": "남한산성 성곽·검단산 순환 광주·성남",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
         "강수 부담 적음",
         "바람 무난",
+        "운동하기 좋은 기온",
         "자외선 강함"
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.6,
-          "tempMinC": 15.5,
-          "apparentMaxC": 25.8,
+          "tempMaxC": 23.7,
+          "tempMinC": 16.0,
+          "apparentMaxC": 23.9,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 2,
-          "windKph": 11.9,
-          "gustKph": 28.8,
-          "uvIndex": 6.8,
-          "sunrise": "06:04",
-          "sunset": "18:55",
+          "precipitationProbabilityPct": 10,
+          "windKph": 5.4,
+          "gustKph": 18.0,
+          "uvIndex": 6.3,
+          "sunrise": "06:10",
+          "sunset": "18:44",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
+            "운동하기 좋은 기온",
             "자외선 강함"
           ],
           "advice": "적극 추천",
@@ -4381,25 +4311,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:55",
+            "sunset": "18:44",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 25.3,
-          "tempMinC": 16.4,
-          "apparentMaxC": 25.1,
+          "tempMaxC": 24.4,
+          "tempMinC": 14.6,
+          "apparentMaxC": 24.6,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 13.1,
-          "gustKph": 34.6,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:53",
-          "score": 100,
+          "precipitationProbabilityPct": 22,
+          "windKph": 5.5,
+          "gustKph": 18.4,
+          "uvIndex": 6.4,
+          "sunrise": "06:11",
+          "sunset": "18:43",
+          "score": 98,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -4413,7 +4343,7 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:30",
-            "sunset": "18:53",
+            "sunset": "18:43",
             "officialCheckRequired": true
           }
         }
@@ -4438,7 +4368,7 @@
       "gpxUrl": null,
       "mapQuery": "바라산·백운산·광교산 연계 의왕·수원",
       "verificationDate": null,
-      "bestDay": "2026-09-05",
+      "bestDay": "2026-09-12",
       "bestScore": 100,
       "bestAdvice": "적극 추천",
       "bestReasons": [
@@ -4448,19 +4378,19 @@
       ],
       "weather": [
         {
-          "date": "2026-09-05",
+          "date": "2026-09-12",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 26.9,
-          "tempMinC": 17.0,
-          "apparentMaxC": 27.8,
+          "tempMaxC": 24.6,
+          "tempMinC": 17.9,
+          "apparentMaxC": 25.3,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 4,
-          "windKph": 12.4,
-          "gustKph": 28.4,
-          "uvIndex": 6.8,
-          "sunrise": "06:05",
-          "sunset": "18:56",
+          "precipitationProbabilityPct": 14,
+          "windKph": 6.6,
+          "gustKph": 21.2,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
           "score": 100,
           "reasons": [
             "강수 부담 적음",
@@ -4475,25 +4405,25 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:00",
-            "sunset": "18:56",
+            "sunset": "18:45",
             "officialCheckRequired": true
           }
         },
         {
-          "date": "2026-09-06",
+          "date": "2026-09-13",
           "weatherCode": 3,
           "weatherLabel": "흐림",
-          "tempMaxC": 26.2,
-          "tempMinC": 18.0,
-          "apparentMaxC": 26.9,
+          "tempMaxC": 25.8,
+          "tempMinC": 16.1,
+          "apparentMaxC": 26.3,
           "precipitationMm": 0.0,
-          "precipitationProbabilityPct": 12,
-          "windKph": 13.3,
-          "gustKph": 34.2,
-          "uvIndex": 6.8,
-          "sunrise": "06:06",
-          "sunset": "18:54",
-          "score": 100,
+          "precipitationProbabilityPct": 21,
+          "windKph": 6.0,
+          "gustKph": 19.1,
+          "uvIndex": 6.5,
+          "sunrise": "06:12",
+          "sunset": "18:43",
+          "score": 98,
           "reasons": [
             "강수 부담 적음",
             "바람 무난",
@@ -4507,7 +4437,101 @@
               "예보상 큰 위험요소 없음"
             ],
             "recommendedStart": "06:00",
-            "sunset": "18:54",
+            "sunset": "18:43",
+            "officialCheckRequired": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "chilbo-ridge",
+      "name": "칠보산 능선 순환",
+      "area": "수원·화성",
+      "distanceKm": 9.6,
+      "ascentM": 430,
+      "duration": "2시간 30분~4시간",
+      "difficulty": "중",
+      "surface": "완만한 능선·흙길",
+      "transport": "호매실·칠보산 입구 방면",
+      "bac": "블랙야크 100대 명산 해당 없음",
+      "summary": "수원 서부에서 짧은 업다운을 반복하기 좋은 숲길",
+      "caution": "갈림길이 많아 GPX 확인이 도움이 돼요.",
+      "profileQuality": "estimated",
+      "profileQualityLabel": "고저도 추정 · GPX 미검증",
+      "gpxVerified": false,
+      "gpxUrl": null,
+      "mapQuery": "칠보산 능선 순환 수원·화성",
+      "verificationDate": null,
+      "bestDay": "2026-09-12",
+      "bestScore": 99,
+      "bestAdvice": "적극 추천",
+      "bestReasons": [
+        "강수 부담 적음",
+        "바람 무난",
+        "자외선 강함"
+      ],
+      "weather": [
+        {
+          "date": "2026-09-12",
+          "weatherCode": 51,
+          "weatherLabel": "이슬비",
+          "tempMaxC": 24.2,
+          "tempMinC": 18.4,
+          "apparentMaxC": 23.9,
+          "precipitationMm": 0.3,
+          "precipitationProbabilityPct": 14,
+          "windKph": 6.4,
+          "gustKph": 19.1,
+          "uvIndex": 6.3,
+          "sunrise": "06:11",
+          "sunset": "18:45",
+          "score": 99,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:45",
+            "officialCheckRequired": true
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "weatherCode": 3,
+          "weatherLabel": "흐림",
+          "tempMaxC": 26.0,
+          "tempMinC": 16.6,
+          "apparentMaxC": 26.7,
+          "precipitationMm": 0.0,
+          "precipitationProbabilityPct": 21,
+          "windKph": 8.1,
+          "gustKph": 20.2,
+          "uvIndex": 6.3,
+          "sunrise": "06:12",
+          "sunset": "18:44",
+          "score": 98,
+          "reasons": [
+            "강수 부담 적음",
+            "바람 무난",
+            "자외선 강함"
+          ],
+          "advice": "적극 추천",
+          "safety": {
+            "level": "양호",
+            "levelCode": 0,
+            "flags": [
+              "예보상 큰 위험요소 없음"
+            ],
+            "recommendedStart": "06:30",
+            "sunset": "18:44",
             "officialCheckRequired": true
           }
         }
